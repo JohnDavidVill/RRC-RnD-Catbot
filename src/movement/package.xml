@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>quadruped_controller</name>
+  <version>0.1.0</version>
+  <description>Quadruped Movement Package ROS2 Humble</description>
+  <maintainer email="wl85@rice.edu">winsonl8</maintainer>
+  <license>MIT</license>
+
+  <build_type>ament_python</build_type>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

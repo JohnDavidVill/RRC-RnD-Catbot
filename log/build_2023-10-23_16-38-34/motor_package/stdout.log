@@ -1,0 +1,25 @@
+running egg_info
+creating ../../../build/motor_package/motor_package.egg-info
+writing ../../../build/motor_package/motor_package.egg-info/PKG-INFO
+writing dependency_links to ../../../build/motor_package/motor_package.egg-info/dependency_links.txt
+writing entry points to ../../../build/motor_package/motor_package.egg-info/entry_points.txt
+writing requirements to ../../../build/motor_package/motor_package.egg-info/requires.txt
+writing top-level names to ../../../build/motor_package/motor_package.egg-info/top_level.txt
+writing manifest file '../../../build/motor_package/motor_package.egg-info/SOURCES.txt'
+reading manifest file '../../../build/motor_package/motor_package.egg-info/SOURCES.txt'
+writing manifest file '../../../build/motor_package/motor_package.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /home/winsonl8/catbot2023/install/motor_package/share/ament_index
+creating /home/winsonl8/catbot2023/install/motor_package/share/ament_index/resource_index
+creating /home/winsonl8/catbot2023/install/motor_package/share/ament_index/resource_index/packages
+copying resource/motor_package -> /home/winsonl8/catbot2023/install/motor_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/winsonl8/catbot2023/install/motor_package/share/motor_package
+running install_egg_info
+Copying ../../../build/motor_package/motor_package.egg-info to /home/winsonl8/catbot2023/install/motor_package/lib/python3.10/site-packages/motor_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing bldc_motor script to /home/winsonl8/catbot2023/install/motor_package/lib/motor_package
+Installing brushed_motor script to /home/winsonl8/catbot2023/install/motor_package/lib/motor_package
+Installing servo_motor script to /home/winsonl8/catbot2023/install/motor_package/lib/motor_package
+writing list of installed files to '/home/winsonl8/catbot2023/build/motor_package/install.log'

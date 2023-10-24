@@ -1,0 +1,23 @@
+[0.843s] Invoking command in '/home/winsonl8/catbot2023/src/motors/motor_package': PYTHONPATH=/home/winsonl8/catbot2023/build/motor_package/prefix_override:/home/winsonl8/catbot2023/install/motor_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/motor_package build --build-base /home/winsonl8/catbot2023/build/motor_package/build install --record /home/winsonl8/catbot2023/build/motor_package/install.log --single-version-externally-managed
+[1.189s] running egg_info
+[1.189s] writing ../../../build/motor_package/motor_package.egg-info/PKG-INFO
+[1.191s] writing dependency_links to ../../../build/motor_package/motor_package.egg-info/dependency_links.txt
+[1.191s] writing entry points to ../../../build/motor_package/motor_package.egg-info/entry_points.txt
+[1.191s] writing requirements to ../../../build/motor_package/motor_package.egg-info/requires.txt
+[1.191s] writing top-level names to ../../../build/motor_package/motor_package.egg-info/top_level.txt
+[1.193s] reading manifest file '../../../build/motor_package/motor_package.egg-info/SOURCES.txt'
+[1.195s] writing manifest file '../../../build/motor_package/motor_package.egg-info/SOURCES.txt'
+[1.195s] running build
+[1.195s] running install
+[1.196s] /home/winsonl8/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.196s]   warnings.warn(
+[1.196s] running install_data
+[1.197s] running install_egg_info
+[1.200s] removing '/home/winsonl8/catbot2023/install/motor_package/lib/python3.10/site-packages/motor_package-0.0.0-py3.10.egg-info' (and everything under it)
+[1.201s] Copying ../../../build/motor_package/motor_package.egg-info to /home/winsonl8/catbot2023/install/motor_package/lib/python3.10/site-packages/motor_package-0.0.0-py3.10.egg-info
+[1.203s] running install_scripts
+[1.235s] Installing bldc_motor script to /home/winsonl8/catbot2023/install/motor_package/lib/motor_package
+[1.236s] Installing brushed_motor script to /home/winsonl8/catbot2023/install/motor_package/lib/motor_package
+[1.236s] Installing servo_motor script to /home/winsonl8/catbot2023/install/motor_package/lib/motor_package
+[1.236s] writing list of installed files to '/home/winsonl8/catbot2023/build/motor_package/install.log'
+[1.279s] Invoked command in '/home/winsonl8/catbot2023/src/motors/motor_package' returned '0': PYTHONPATH=/home/winsonl8/catbot2023/build/motor_package/prefix_override:/home/winsonl8/catbot2023/install/motor_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/motor_package build --build-base /home/winsonl8/catbot2023/build/motor_package/build install --record /home/winsonl8/catbot2023/build/motor_package/install.log --single-version-externally-managed

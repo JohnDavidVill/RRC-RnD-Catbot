@@ -1,0 +1,5 @@
+[console_scripts]
+bldc_motor = motor_package.bldc_motor:main
+brushed_motor = motor_package.brushed_motor:main
+servo_motor = motor_package.servo_motor:main
+
