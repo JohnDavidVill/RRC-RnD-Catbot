@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>vision</name>
+  <version>0.0.0</version>
+  <description>Vision package for the catbot</description>
+  <maintainer email="winsonlin411@gmail.com">winsonl8</maintainer>
+  <license>MIT</license>
+
+  <!-- Define dependencies -->
+  <depend>sensor_msgs</depend> <!-- For handling sensor data, including camera images -->
+  <depend>image_transport</depend> <!-- For efficient image transport -->
+  <depend>cv_bridge</depend> <!-- For converting between ROS Image messages and OpenCV images -->
+  <depend>vision_opencv</depend> <!-- ROS bindings for OpenCV -->
+  <depend>image_pipeline</depend> <!-- For image processing utilities -->
+  <depend>tf2</depend> <!-- For handling coordinate transforms, which can be crucial for vision applications -->
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>rclpy</depend> <!-- For ROS Python client library -->
+
+  <!-- If you are planning to use depth sensors or 3D reconstruction -->
+  <depend>pcl_ros</depend> <!-- ROS bindings for Point Cloud Library -->
+  
+  <!-- For message generation -->
+  <build_depend>ament_cmake</build_depend>
+  <build_export_depend>ament_cmake</build_export_depend>
+
+  <!-- For testing -->
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
