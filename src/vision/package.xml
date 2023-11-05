@@ -1,8 +1,7 @@
 <?xml version="1.0"?>
-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>vision</name>
-  <version>0.0.0</version>
+  <version>0.0.1</version>
   <description>Vision package for the catbot</description>
   <maintainer email="winsonlin411@gmail.com">winsonl8</maintainer>
   <license>MIT</license>
@@ -18,18 +17,13 @@
   <depend>tf2_geometry_msgs</depend>
   <depend>rclpy</depend> <!-- For ROS Python client library -->
 
-  <!-- If you are planning to use depth sensors or 3D reconstruction -->
-  <depend>pcl_ros</depend> <!-- ROS bindings for Point Cloud Library -->
-  
   <!-- For message generation -->
   <build_depend>ament_cmake</build_depend>
   <build_export_depend>ament_cmake</build_export_depend>
 
   <!-- For testing -->
-  <test_depend>ament_copyright</test_depend>
-  <test_depend>ament_flake8</test_depend>
-  <test_depend>ament_pep257</test_depend>
-  <test_depend>python3-pytest</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
 
   <export>
     <build_type>ament_python</build_type>
