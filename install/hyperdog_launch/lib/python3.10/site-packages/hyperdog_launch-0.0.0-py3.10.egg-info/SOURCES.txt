@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/hyperdog_launch/hyperdog_launch.egg-info/PKG-INFO
+../../../build/hyperdog_launch/hyperdog_launch.egg-info/SOURCES.txt
+../../../build/hyperdog_launch/hyperdog_launch.egg-info/dependency_links.txt
+../../../build/hyperdog_launch/hyperdog_launch.egg-info/entry_points.txt
+../../../build/hyperdog_launch/hyperdog_launch.egg-info/requires.txt
+../../../build/hyperdog_launch/hyperdog_launch.egg-info/top_level.txt
+../../../build/hyperdog_launch/hyperdog_launch.egg-info/zip-safe
+hyperdog_launch/__init__.py
+launch/hyperdog.launch.py
+resource/hyperdog_launch
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

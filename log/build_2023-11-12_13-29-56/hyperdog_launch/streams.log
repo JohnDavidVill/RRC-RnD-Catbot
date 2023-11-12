@@ -1,0 +1,20 @@
+[0.498s] Invoking command in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_launch': PYTHONPATH=/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_launch/prefix_override:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hyperdog_launch build --build-base /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_launch/build install --record /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_launch/install.log --single-version-externally-managed
+[0.659s] running egg_info
+[0.659s] writing ../../../build/hyperdog_launch/hyperdog_launch.egg-info/PKG-INFO
+[0.659s] writing dependency_links to ../../../build/hyperdog_launch/hyperdog_launch.egg-info/dependency_links.txt
+[0.659s] writing entry points to ../../../build/hyperdog_launch/hyperdog_launch.egg-info/entry_points.txt
+[0.659s] writing requirements to ../../../build/hyperdog_launch/hyperdog_launch.egg-info/requires.txt
+[0.659s] writing top-level names to ../../../build/hyperdog_launch/hyperdog_launch.egg-info/top_level.txt
+[0.660s] reading manifest file '../../../build/hyperdog_launch/hyperdog_launch.egg-info/SOURCES.txt'
+[0.661s] writing manifest file '../../../build/hyperdog_launch/hyperdog_launch.egg-info/SOURCES.txt'
+[0.661s] running build
+[0.661s] running build_py
+[0.661s] running install
+[0.661s] running install_lib
+[0.662s] running install_data
+[0.662s] running install_egg_info
+[0.663s] removing '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/lib/python3.10/site-packages/hyperdog_launch-0.0.0-py3.10.egg-info' (and everything under it)
+[0.664s] Copying ../../../build/hyperdog_launch/hyperdog_launch.egg-info to /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/lib/python3.10/site-packages/hyperdog_launch-0.0.0-py3.10.egg-info
+[0.664s] running install_scripts
+[0.678s] writing list of installed files to '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_launch/install.log'
+[0.693s] Invoked command in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_launch' returned '0': PYTHONPATH=/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_launch/prefix_override:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hyperdog_launch build --build-base /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_launch/build install --record /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_launch/install.log --single-version-externally-managed

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hyperdog_msgs/msg/Limits.msg
+// generated code does not contain a copyright notice
+
+
+module hyperdog_msgs {
+  module msg {
+    typedef int16 int16__3[3];
+    typedef int16 int16__2[2];
+    @verbatim (language="comment", text=
+      "std_msgs/Header header")
+    struct Limits {
+      @default (value="(40, 45, 50)")
+      int16__3 eular_ang_range;
+
+      @default (value="(80, 240)")
+      int16__2 height_range;
+
+      @default (value="(250, 250)")
+      int16__2 steplength_range;
+    };
+  };
+};

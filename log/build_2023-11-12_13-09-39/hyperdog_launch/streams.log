@@ -1,0 +1,37 @@
+[0.855s] Invoking command in '/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_launch': PYTHONPATH=/home/nicoleibert/hyperdog_ws/build/hyperdog_launch/prefix_override:/home/nicoleibert/hyperdog_ws/install/hyperdog_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hyperdog_launch build --build-base /home/nicoleibert/hyperdog_ws/build/hyperdog_launch/build install --record /home/nicoleibert/hyperdog_ws/build/hyperdog_launch/install.log --install-scripts $base/lib/hyperdog_launch --single-version-externally-managed
+[1.046s] /home/nicoleibert/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.046s]   warnings.warn(
+[1.068s] running egg_info
+[1.068s] creating ../../../build/hyperdog_launch/hyperdog_launch.egg-info
+[1.068s] writing ../../../build/hyperdog_launch/hyperdog_launch.egg-info/PKG-INFO
+[1.068s] writing dependency_links to ../../../build/hyperdog_launch/hyperdog_launch.egg-info/dependency_links.txt
+[1.068s] writing entry points to ../../../build/hyperdog_launch/hyperdog_launch.egg-info/entry_points.txt
+[1.068s] writing requirements to ../../../build/hyperdog_launch/hyperdog_launch.egg-info/requires.txt
+[1.069s] writing top-level names to ../../../build/hyperdog_launch/hyperdog_launch.egg-info/top_level.txt
+[1.069s] writing manifest file '../../../build/hyperdog_launch/hyperdog_launch.egg-info/SOURCES.txt'
+[1.070s] reading manifest file '../../../build/hyperdog_launch/hyperdog_launch.egg-info/SOURCES.txt'
+[1.070s] writing manifest file '../../../build/hyperdog_launch/hyperdog_launch.egg-info/SOURCES.txt'
+[1.071s] running build
+[1.071s] running build_py
+[1.071s] creating /home/nicoleibert/hyperdog_ws/build/hyperdog_launch/build
+[1.071s] creating /home/nicoleibert/hyperdog_ws/build/hyperdog_launch/build/lib
+[1.071s] creating /home/nicoleibert/hyperdog_ws/build/hyperdog_launch/build/lib/hyperdog_launch
+[1.071s] copying hyperdog_launch/__init__.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_launch/build/lib/hyperdog_launch
+[1.071s] running install
+[1.071s] running install_lib
+[1.072s] creating /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/lib/python3.10/site-packages/hyperdog_launch
+[1.072s] copying /home/nicoleibert/hyperdog_ws/build/hyperdog_launch/build/lib/hyperdog_launch/__init__.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/lib/python3.10/site-packages/hyperdog_launch
+[1.072s] byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/lib/python3.10/site-packages/hyperdog_launch/__init__.py to __init__.cpython-310.pyc
+[1.072s] running install_data
+[1.073s] creating /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/share/ament_index
+[1.073s] creating /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/share/ament_index/resource_index
+[1.073s] creating /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/share/ament_index/resource_index/packages
+[1.073s] copying resource/hyperdog_launch -> /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/share/ament_index/resource_index/packages
+[1.073s] copying package.xml -> /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/share/hyperdog_launch
+[1.073s] creating /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/share/hyperdog_launch/launch
+[1.073s] copying launch/hyperdog.launch.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/share/hyperdog_launch/launch
+[1.073s] running install_egg_info
+[1.074s] Copying ../../../build/hyperdog_launch/hyperdog_launch.egg-info to /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/lib/python3.10/site-packages/hyperdog_launch-0.0.0-py3.10.egg-info
+[1.075s] running install_scripts
+[1.091s] writing list of installed files to '/home/nicoleibert/hyperdog_ws/build/hyperdog_launch/install.log'
+[1.109s] Invoked command in '/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_launch' returned '0': PYTHONPATH=/home/nicoleibert/hyperdog_ws/build/hyperdog_launch/prefix_override:/home/nicoleibert/hyperdog_ws/install/hyperdog_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hyperdog_launch build --build-base /home/nicoleibert/hyperdog_ws/build/hyperdog_launch/build install --record /home/nicoleibert/hyperdog_ws/build/hyperdog_launch/install.log --install-scripts $base/lib/hyperdog_launch --single-version-externally-managed

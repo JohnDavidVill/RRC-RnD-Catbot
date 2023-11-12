@@ -1,0 +1,22 @@
+[0.591s] Invoking command in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_ctrl': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/prefix_override:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages:/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hyperdog_ctrl build --build-base /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build install --record /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/install.log --single-version-externally-managed
+[0.795s] running egg_info
+[0.796s] writing ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/PKG-INFO
+[0.796s] writing dependency_links to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/dependency_links.txt
+[0.796s] writing entry points to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/entry_points.txt
+[0.796s] writing requirements to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/requires.txt
+[0.796s] writing top-level names to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/top_level.txt
+[0.798s] reading manifest file '../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/SOURCES.txt'
+[0.799s] writing manifest file '../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/SOURCES.txt'
+[0.799s] running build
+[0.799s] running build_py
+[0.800s] running install
+[0.800s] running install_lib
+[0.801s] running install_data
+[0.802s] running install_egg_info
+[0.803s] removing '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/hyperdog_ctrl-0.0.0-py3.10.egg-info' (and everything under it)
+[0.804s] Copying ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info to /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/hyperdog_ctrl-0.0.0-py3.10.egg-info
+[0.804s] running install_scripts
+[0.818s] Installing IK_node script to /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/hyperdog_ctrl
+[0.818s] Installing cmd_manager_node script to /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/hyperdog_ctrl
+[0.818s] writing list of installed files to '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/install.log'
+[0.834s] Invoked command in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_ctrl' returned '0': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/prefix_override:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages:/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hyperdog_ctrl build --build-base /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build install --record /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/install.log --single-version-externally-managed

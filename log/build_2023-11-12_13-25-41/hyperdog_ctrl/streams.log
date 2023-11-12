@@ -1,0 +1,60 @@
+[0.709s] Invoking command in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_ctrl': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/prefix_override:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages:/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hyperdog_ctrl build --build-base /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build install --record /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/install.log --single-version-externally-managed
+[0.904s] running egg_info
+[0.905s] writing ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/PKG-INFO
+[0.905s] writing dependency_links to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/dependency_links.txt
+[0.905s] writing entry points to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/entry_points.txt
+[0.905s] writing requirements to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/requires.txt
+[0.905s] writing top-level names to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/top_level.txt
+[0.908s] reading manifest file '../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/SOURCES.txt'
+[0.908s] writing manifest file '../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/SOURCES.txt'
+[0.908s] running build
+[0.909s] running build_py
+[0.909s] copying IK/InverseKinematics.py -> /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/IK
+[0.909s] copying IK/__init__.py -> /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/IK
+[0.909s] copying IK/inverse_kinematic_node.py -> /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/IK
+[0.909s] copying IK/controlVariables.py -> /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/IK
+[0.909s] copying cmd_manager/main.py -> /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/cmd_manager
+[0.909s] copying cmd_manager/__init__.py -> /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/cmd_manager
+[0.909s] copying cmd_manager/cmd_manager_node.py -> /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/cmd_manager
+[0.910s] copying cmd_manager/hyperdog_variables.py -> /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/cmd_manager
+[0.910s] copying body_motion_planner/__init__.py -> /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/body_motion_planner
+[0.910s] copying body_motion_planner/body_motion_planner.py -> /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/body_motion_planner
+[0.910s] copying gait_generator/gait_planner.py -> /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/gait_generator
+[0.910s] copying gait_generator/__init__.py -> /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/gait_generator
+[0.911s] running install
+[0.911s] running install_lib
+[0.912s] copying /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/cmd_manager/main.py -> /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager
+[0.912s] copying /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/cmd_manager/__init__.py -> /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager
+[0.912s] copying /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/cmd_manager/cmd_manager_node.py -> /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager
+[0.912s] copying /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/cmd_manager/hyperdog_variables.py -> /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager
+[0.912s] copying /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/body_motion_planner/__init__.py -> /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/body_motion_planner
+[0.912s] copying /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/body_motion_planner/body_motion_planner.py -> /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/body_motion_planner
+[0.913s] copying /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/gait_generator/gait_planner.py -> /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/gait_generator
+[0.913s] copying /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/gait_generator/__init__.py -> /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/gait_generator
+[0.913s] copying /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/IK/InverseKinematics.py -> /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/IK
+[0.913s] copying /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/IK/__init__.py -> /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/IK
+[0.913s] copying /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/IK/inverse_kinematic_node.py -> /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/IK
+[0.913s] copying /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build/lib/IK/controlVariables.py -> /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/IK
+[0.914s] byte-compiling /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager/main.py to main.cpython-310.pyc
+[0.915s] byte-compiling /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager/__init__.py to __init__.cpython-310.pyc
+[0.915s] byte-compiling /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager/cmd_manager_node.py to cmd_manager_node.cpython-310.pyc
+[0.916s] byte-compiling /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager/hyperdog_variables.py to hyperdog_variables.cpython-310.pyc
+[0.917s] byte-compiling /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/body_motion_planner/__init__.py to __init__.cpython-310.pyc
+[0.917s] byte-compiling /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/body_motion_planner/body_motion_planner.py to body_motion_planner.cpython-310.pyc
+[0.918s] byte-compiling /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/gait_generator/gait_planner.py to gait_planner.cpython-310.pyc
+[0.923s] byte-compiling /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/gait_generator/__init__.py to __init__.cpython-310.pyc
+[0.924s] byte-compiling /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/IK/InverseKinematics.py to InverseKinematics.cpython-310.pyc
+[0.925s] byte-compiling /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/IK/__init__.py to __init__.cpython-310.pyc
+[0.926s] byte-compiling /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/IK/inverse_kinematic_node.py to inverse_kinematic_node.cpython-310.pyc
+[0.926s] byte-compiling /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/IK/controlVariables.py to controlVariables.cpython-310.pyc
+[0.927s] running install_data
+[0.927s] copying resource/hyperdog_ctrl -> /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/share/ament_index/resource_index/packages
+[0.928s] copying package.xml -> /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/share/hyperdog_ctrl
+[0.928s] running install_egg_info
+[0.930s] removing '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/hyperdog_ctrl-0.0.0-py3.10.egg-info' (and everything under it)
+[0.930s] Copying ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info to /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/hyperdog_ctrl-0.0.0-py3.10.egg-info
+[0.931s] running install_scripts
+[0.946s] Installing IK_node script to /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/hyperdog_ctrl
+[0.946s] Installing cmd_manager_node script to /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/hyperdog_ctrl
+[0.946s] writing list of installed files to '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/install.log'
+[0.965s] Invoked command in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_ctrl' returned '0': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/prefix_override:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages:/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hyperdog_ctrl build --build-base /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build install --record /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/install.log --single-version-externally-managed

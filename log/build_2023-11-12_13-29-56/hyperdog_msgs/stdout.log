@@ -1,0 +1,221 @@
+-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+-- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nicoleibert/hyperdog_ws/build/hyperdog_msgs
+[  1%] Built target hyperdog_msgs__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_copy_hyperdog_msgs
+[35m[1mConsolidate compiler generated dependencies of target hyperdog_msgs__rosidl_generator_c[0m
+[  3%] Built target hyperdog_msgs__cpp
+[ 24%] Built target hyperdog_msgs__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target hyperdog_msgs__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target hyperdog_msgs__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target hyperdog_msgs__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target hyperdog_msgs__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target hyperdog_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target hyperdog_msgs__rosidl_typesupport_introspection_cpp[0m
+[ 42%] Built target hyperdog_msgs__rosidl_typesupport_introspection_c
+[ 42%] Built target hyperdog_msgs__rosidl_typesupport_c
+[ 51%] Built target hyperdog_msgs__rosidl_typesupport_fastrtps_c
+[ 61%] Built target hyperdog_msgs__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target hyperdog_msgs__rosidl_typesupport_introspection_cpp
+[ 79%] Built target hyperdog_msgs__rosidl_typesupport_cpp
+[ 79%] Built target hyperdog_msgs
+[ 81%] Built target hyperdog_msgs__py
+[35m[1mConsolidate compiler generated dependencies of target hyperdog_msgs__rosidl_generator_py[0m
+[ 88%] Built target hyperdog_msgs__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target hyperdog_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target hyperdog_msgs__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target hyperdog_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[ 92%] Built target hyperdog_msgs__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] Built target hyperdog_msgs__rosidl_typesupport_c__pyext
+[100%] Built target hyperdog_msgs__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing hyperdog_msgs.egg-info/PKG-INFO
+writing dependency_links to hyperdog_msgs.egg-info/dependency_links.txt
+writing top-level names to hyperdog_msgs.egg-info/top_level.txt
+reading manifest file 'hyperdog_msgs.egg-info/SOURCES.txt'
+writing manifest file 'hyperdog_msgs.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_hyperdog_msgs_egg
+-- Install configuration: ""
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/ament_index/resource_index/rosidl_interfaces/hyperdog_msgs
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/JoyCtrlCmds.json
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/Limits.json
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/Geometry.json
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/joy_ctrl_cmds.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/limits.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/geometry.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__type_support.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__type_support.c
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__type_support.c
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__type_support.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__functions.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__description.c
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__struct.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__struct.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__functions.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__type_support.c
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__functions.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__functions.c
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__functions.c
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__struct.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__description.c
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__functions.c
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__type_support.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__description.c
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/environment/library_path.sh
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/environment/library_path.dsv
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_generator_c.so
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/joy_ctrl_cmds.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/limits.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/geometry.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__struct.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__traits.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__builder.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__builder.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__traits.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__struct.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__traits.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__builder.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__struct.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/dds_fastrtps
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__type_support.c
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__type_support.c
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__type_support.c
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_c.so
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__type_support.cpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__type_support.cpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__type_support.cpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/environment/pythonpath.sh
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/environment/pythonpath.dsv
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs-0.0.0-py3.10.egg-info
+-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/_hyperdog_msgs_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/_hyperdog_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/_geometry.py
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/_geometry_s.c
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/_joy_ctrl_cmds.py
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/_joy_ctrl_cmds_s.c
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/__init__.py
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/_limits_s.c
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/_limits.py
+-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/__init__.py
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/libhyperdog_msgs__rosidl_generator_py.so
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/_hyperdog_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs'...
+Compiling '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/__init__.py'...
+Listing '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg'...
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_generator_py.so
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/JoyCtrlCmds.idl
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/Limits.idl
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/Geometry.idl
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/JoyCtrlCmds.msg
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/Limits.msg
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/Geometry.msg
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/ament_index/resource_index/package_run_dependencies/hyperdog_msgs
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/ament_index/resource_index/parent_prefix_path/hyperdog_msgs
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/environment/path.sh
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/environment/path.dsv
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/local_setup.bash
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/local_setup.sh
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/local_setup.zsh
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/local_setup.dsv
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/package.dsv
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/ament_index/resource_index/packages/hyperdog_msgs
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgs__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgs__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgsConfig.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgsConfig-version.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/package.xml

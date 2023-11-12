@@ -1,0 +1,76 @@
+[0.722s] Invoking command in '/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_ctrl': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/prefix_override:/home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages:/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hyperdog_ctrl build --build-base /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build install --record /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/install.log --install-scripts $base/lib/hyperdog_ctrl --single-version-externally-managed
+[0.984s] /home/nicoleibert/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.984s]   warnings.warn(
+[1.008s] running egg_info
+[1.008s] creating ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info
+[1.009s] writing ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/PKG-INFO
+[1.009s] writing dependency_links to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/dependency_links.txt
+[1.009s] writing entry points to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/entry_points.txt
+[1.009s] writing requirements to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/requires.txt
+[1.009s] writing top-level names to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/top_level.txt
+[1.009s] writing manifest file '../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/SOURCES.txt'
+[1.011s] reading manifest file '../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/SOURCES.txt'
+[1.011s] writing manifest file '../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/SOURCES.txt'
+[1.012s] running build
+[1.012s] running build_py
+[1.012s] creating /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build
+[1.012s] creating /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib
+[1.012s] creating /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK
+[1.012s] copying IK/InverseKinematics.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK
+[1.012s] copying IK/__init__.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK
+[1.012s] copying IK/inverse_kinematic_node.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK
+[1.012s] copying IK/controlVariables.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK
+[1.012s] creating /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager
+[1.012s] copying cmd_manager/main.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager
+[1.012s] copying cmd_manager/__init__.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager
+[1.012s] copying cmd_manager/cmd_manager_node.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager
+[1.012s] copying cmd_manager/hyperdog_variables.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager
+[1.012s] creating /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/body_motion_planner
+[1.013s] copying body_motion_planner/__init__.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/body_motion_planner
+[1.013s] copying body_motion_planner/body_motion_planner.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/body_motion_planner
+[1.013s] creating /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/gait_generator
+[1.013s] copying gait_generator/gait_planner.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/gait_generator
+[1.013s] copying gait_generator/__init__.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/gait_generator
+[1.013s] running install
+[1.013s] running install_lib
+[1.014s] creating /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager
+[1.014s] copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager/main.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager
+[1.014s] copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager/__init__.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager
+[1.014s] copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager/cmd_manager_node.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager
+[1.014s] copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager/hyperdog_variables.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager
+[1.014s] creating /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/body_motion_planner
+[1.014s] copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/body_motion_planner/__init__.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/body_motion_planner
+[1.015s] copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/body_motion_planner/body_motion_planner.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/body_motion_planner
+[1.015s] creating /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/gait_generator
+[1.015s] copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/gait_generator/gait_planner.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/gait_generator
+[1.015s] copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/gait_generator/__init__.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/gait_generator
+[1.015s] creating /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK
+[1.015s] copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK/InverseKinematics.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK
+[1.015s] copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK/__init__.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK
+[1.015s] copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK/inverse_kinematic_node.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK
+[1.015s] copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK/controlVariables.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK
+[1.016s] byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager/main.py to main.cpython-310.pyc
+[1.016s] byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager/__init__.py to __init__.cpython-310.pyc
+[1.016s] byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager/cmd_manager_node.py to cmd_manager_node.cpython-310.pyc
+[1.017s] byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager/hyperdog_variables.py to hyperdog_variables.cpython-310.pyc
+[1.018s] byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/body_motion_planner/__init__.py to __init__.cpython-310.pyc
+[1.018s] byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/body_motion_planner/body_motion_planner.py to body_motion_planner.cpython-310.pyc
+[1.018s] byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/gait_generator/gait_planner.py to gait_planner.cpython-310.pyc
+[1.023s] byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/gait_generator/__init__.py to __init__.cpython-310.pyc
+[1.023s] byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK/InverseKinematics.py to InverseKinematics.cpython-310.pyc
+[1.024s] byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK/__init__.py to __init__.cpython-310.pyc
+[1.024s] byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK/inverse_kinematic_node.py to inverse_kinematic_node.cpython-310.pyc
+[1.024s] byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK/controlVariables.py to controlVariables.cpython-310.pyc
+[1.025s] running install_data
+[1.025s] creating /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/share/ament_index
+[1.025s] creating /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/share/ament_index/resource_index
+[1.025s] creating /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/share/ament_index/resource_index/packages
+[1.025s] copying resource/hyperdog_ctrl -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/share/ament_index/resource_index/packages
+[1.025s] copying package.xml -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/share/hyperdog_ctrl
+[1.025s] running install_egg_info
+[1.027s] Copying ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info to /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/hyperdog_ctrl-0.0.0-py3.10.egg-info
+[1.027s] running install_scripts
+[1.044s] Installing IK_node script to /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/hyperdog_ctrl
+[1.044s] Installing cmd_manager_node script to /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/hyperdog_ctrl
+[1.044s] writing list of installed files to '/home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/install.log'
+[1.064s] Invoked command in '/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_ctrl' returned '0': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/prefix_override:/home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages:/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hyperdog_ctrl build --build-base /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build install --record /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/install.log --install-scripts $base/lib/hyperdog_ctrl --single-version-externally-managed

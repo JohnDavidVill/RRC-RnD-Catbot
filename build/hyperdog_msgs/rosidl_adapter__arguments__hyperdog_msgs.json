@@ -1,0 +1,8 @@
+{
+  "package_name": "hyperdog_msgs",
+  "non_idl_tuples": [
+    "/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_msgs:msg/JoyCtrlCmds.msg",
+    "/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_msgs:msg/Limits.msg",
+    "/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_msgs:msg/Geometry.msg"
+  ]
+}

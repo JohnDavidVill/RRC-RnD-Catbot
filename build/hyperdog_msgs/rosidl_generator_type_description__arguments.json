@@ -1,0 +1,14 @@
+{
+  "package_name": "hyperdog_msgs",
+  "output_dir": "/home/nicoleibert/hyperdog_ws/build/hyperdog_msgs/rosidl_generator_type_description/hyperdog_msgs",
+  "idl_tuples": [
+    "/home/nicoleibert/hyperdog_ws/build/hyperdog_msgs/rosidl_adapter/hyperdog_msgs:msg/JoyCtrlCmds.idl",
+    "/home/nicoleibert/hyperdog_ws/build/hyperdog_msgs/rosidl_adapter/hyperdog_msgs:msg/Limits.idl",
+    "/home/nicoleibert/hyperdog_ws/build/hyperdog_msgs/rosidl_adapter/hyperdog_msgs:msg/Geometry.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/iron/share/geometry_msgs",
+    "std_msgs:/opt/ros/iron/share/std_msgs"
+  ]
+}

@@ -1,0 +1,71 @@
+[0.278s] Invoking command in '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim -- -j16 -l16
+[0.294s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.396s] -- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+[0.419s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.426s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.436s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.449s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.590s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.591s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.705s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.817s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[0.836s] -- Found hyperdog_msgs: 0.0.0 (/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake)
+[0.909s] -- Found nav_msgs: 5.0.0 (/opt/ros/iron/share/nav_msgs/cmake)
+[1.029s] -- Configuring done
+[1.037s] -- Generating done
+[1.038s] -- Build files have been written to: /home/nicoleibert/hyperdog_ws/build/hyperdog_gazebo_sim
+[1.058s] [35m[1mConsolidate compiler generated dependencies of target fake_odom[0m
+[1.059s] [35m[1mConsolidate compiler generated dependencies of target hyperdog_gazebo_joint_ctrl_node[0m
+[1.072s] [100%] Built target fake_odom
+[1.072s] [100%] Built target hyperdog_gazebo_joint_ctrl_node
+[1.080s] Invoked command in '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim' returned '0': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim -- -j16 -l16
+[1.100s] Invoking command in '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim
+[1.106s] -- Install configuration: ""
+[1.106s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/lib/hyperdog_gazebo_sim/hyperdog_gazebo_joint_ctrl_node
+[1.106s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/lib/hyperdog_gazebo_sim/fake_odom
+[1.106s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/config
+[1.106s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/config/hyperdog_joint_controller.yaml
+[1.106s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/description
+[1.107s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/description/physics.xacro
+[1.107s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/description/consts.xacro
+[1.107s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/description/hyperdog.urdf.xacro
+[1.107s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/description/hyperdog_urdf_links.xacro
+[1.107s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/description/hyperdog_gazebo.xacro
+[1.107s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/description/gazebo_ros2_control_plugin.xacro
+[1.107s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/description/hyperdog_urdf_joints.xacro
+[1.107s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/launch
+[1.107s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/launch/hyperdog_gazebo_sim.launch.py
+[1.107s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/launch/hyperdog_gazebo_sim_allPkgs.launch.py
+[1.107s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes
+[1.107s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/LLEG.stl
+[1.107s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/RIGHT_ULEG.stl
+[1.108s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/body.stl
+[1.108s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/LEFT_ULEG.stl
+[1.108s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/LEFT_HIP.stl
+[1.108s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/RIGHT_HIP.stl
+[1.108s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/mm_scaled
+[1.108s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/mm_scaled/LLEG.dae
+[1.108s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/mm_scaled/LLEG.stl
+[1.108s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/worlds
+[1.108s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/worlds/dolly_city.world
+[1.108s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/worlds/test_world.world
+[1.108s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/worlds/contact.world
+[1.108s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/src
+[1.108s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/src/hyperdog_gazebo_joint_controller.cpp
+[1.109s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/src/fake_odom.cpp
+[1.109s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/ament_index/resource_index/package_run_dependencies/hyperdog_gazebo_sim
+[1.109s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/ament_index/resource_index/parent_prefix_path/hyperdog_gazebo_sim
+[1.109s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/environment/ament_prefix_path.sh
+[1.109s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/environment/ament_prefix_path.dsv
+[1.109s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/environment/path.sh
+[1.109s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/environment/path.dsv
+[1.110s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/local_setup.bash
+[1.110s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/local_setup.sh
+[1.110s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/local_setup.zsh
+[1.110s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/local_setup.dsv
+[1.111s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/package.dsv
+[1.111s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/ament_index/resource_index/packages/hyperdog_gazebo_sim
+[1.111s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/cmake/hyperdog_gazebo_simConfig.cmake
+[1.111s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/cmake/hyperdog_gazebo_simConfig-version.cmake
+[1.112s] -- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/package.xml
+[1.112s] Invoked command in '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim' returned '0': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim

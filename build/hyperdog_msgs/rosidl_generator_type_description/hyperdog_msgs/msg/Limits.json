@@ -1,0 +1,46 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "hyperdog_msgs/msg/Limits",
+      "fields": [
+        {
+          "name": "eular_ang_range",
+          "type": {
+            "type_id": 52,
+            "capacity": 3,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "(40, 45, 50)"
+        },
+        {
+          "name": "height_range",
+          "type": {
+            "type_id": 52,
+            "capacity": 2,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "(80, 240)"
+        },
+        {
+          "name": "steplength_range",
+          "type": {
+            "type_id": 52,
+            "capacity": 2,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "(250, 250)"
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "hyperdog_msgs/msg/Limits",
+      "hash_string": "RIHS01_f2920f0963c2bc16d06dfdfde9e57c7194d84aef75af4bb74e4a2a8a80851e7a"
+    }
+  ]
+}

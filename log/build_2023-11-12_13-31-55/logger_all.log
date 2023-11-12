@@ -1,0 +1,398 @@
+[0.632s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.632s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f15aab7c8e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f15aab34400>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f15aab34400>>)
+[0.659s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.660s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nicoleibert/RRC-RnD-Catbot'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2) by extension 'ignore'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2) by extension 'ignore_ament_install'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2) by extensions ['colcon_pkg']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2) by extension 'colcon_pkg'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2) by extensions ['colcon_meta']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2) by extension 'colcon_meta'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2) by extensions ['ros']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2) by extension 'ros'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2) by extensions ['cmake', 'python']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2) by extension 'cmake'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2) by extension 'python'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2) by extensions ['python_setup_py']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2) by extension 'python_setup_py'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_ctrl) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_ctrl) by extension 'ignore'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_ctrl) by extension 'ignore_ament_install'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_ctrl) by extensions ['colcon_pkg']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_ctrl) by extension 'colcon_pkg'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_ctrl) by extensions ['colcon_meta']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_ctrl) by extension 'colcon_meta'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_ctrl) by extensions ['ros']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_ctrl) by extension 'ros'
+[0.670s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hyperdog_ros2/hyperdog_ctrl' with type 'ros.ament_python' and name 'hyperdog_ctrl'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_gazebo_sim) by extension 'ignore'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_gazebo_sim) by extension 'ignore_ament_install'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_gazebo_sim) by extensions ['colcon_pkg']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_gazebo_sim) by extension 'colcon_pkg'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_gazebo_sim) by extensions ['colcon_meta']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_gazebo_sim) by extension 'colcon_meta'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_gazebo_sim) by extensions ['ros']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_gazebo_sim) by extension 'ros'
+[0.670s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hyperdog_ros2/hyperdog_gazebo_sim' with type 'ros.ament_cmake' and name 'hyperdog_gazebo_sim'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_launch) by extension 'ignore'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_launch) by extension 'ignore_ament_install'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_launch) by extensions ['colcon_pkg']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_launch) by extension 'colcon_pkg'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_launch) by extensions ['colcon_meta']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_launch) by extension 'colcon_meta'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_launch) by extensions ['ros']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_launch) by extension 'ros'
+[0.671s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hyperdog_ros2/hyperdog_launch' with type 'ros.ament_python' and name 'hyperdog_launch'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_msgs) by extension 'ignore'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_msgs) by extension 'ignore_ament_install'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_msgs) by extensions ['colcon_pkg']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_msgs) by extension 'colcon_pkg'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_msgs) by extensions ['colcon_meta']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_msgs) by extension 'colcon_meta'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_msgs) by extensions ['ros']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_msgs) by extension 'ros'
+[0.671s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hyperdog_ros2/hyperdog_msgs' with type 'ros.ament_cmake' and name 'hyperdog_msgs'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_teleop) by extension 'ignore'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_teleop) by extension 'ignore_ament_install'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_teleop) by extensions ['colcon_pkg']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_teleop) by extension 'colcon_pkg'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_teleop) by extensions ['colcon_meta']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_teleop) by extension 'colcon_meta'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_teleop) by extensions ['ros']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/hyperdog_ros2/hyperdog_teleop) by extension 'ros'
+[0.672s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hyperdog_ros2/hyperdog_teleop' with type 'ros.ament_cmake' and name 'hyperdog_teleop'
+[0.672s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.672s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.672s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.672s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.672s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.728s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.728s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.753s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 404 installed packages in /opt/ros/iron
+[0.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_launch' build argument 'cmake_args' from command line to 'None'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_launch' build argument 'cmake_target' from command line to 'None'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.809s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.809s] DEBUG:colcon.colcon_core.verb:Building package 'hyperdog_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch', 'merge_install': False, 'path': '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_launch', 'symlink_install': False, 'test_result_base': None}
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_msgs' build argument 'cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_msgs' build argument 'cmake_target' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.818s] DEBUG:colcon.colcon_core.verb:Building package 'hyperdog_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs', 'merge_install': False, 'path': '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_ctrl' build argument 'cmake_args' from command line to 'None'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_ctrl' build argument 'cmake_target' from command line to 'None'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_ctrl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_ctrl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_ctrl' build argument 'cmake_clean_first' from command line to 'False'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_ctrl' build argument 'cmake_force_configure' from command line to 'False'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_ctrl' build argument 'ament_cmake_args' from command line to 'None'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_ctrl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.828s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_ctrl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.828s] DEBUG:colcon.colcon_core.verb:Building package 'hyperdog_ctrl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl', 'merge_install': False, 'path': '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_ctrl', 'symlink_install': False, 'test_result_base': None}
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_gazebo_sim' build argument 'cmake_args' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_gazebo_sim' build argument 'cmake_target' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_gazebo_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_gazebo_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_gazebo_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_gazebo_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_gazebo_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_gazebo_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_gazebo_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.836s] DEBUG:colcon.colcon_core.verb:Building package 'hyperdog_gazebo_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim', 'merge_install': False, 'path': '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_gazebo_sim', 'symlink_install': False, 'test_result_base': None}
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_teleop' build argument 'cmake_args' from command line to 'None'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_teleop' build argument 'cmake_target' from command line to 'None'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'hyperdog_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.845s] DEBUG:colcon.colcon_core.verb:Building package 'hyperdog_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop', 'merge_install': False, 'path': '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.854s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.864s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.864s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_msgs' with build type 'ament_cmake'
+[0.864s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_msgs'
+[0.875s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.875s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.875s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.898s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_launch' with build type 'ament_python'
+[0.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('hyperdog_launch', 'ament_prefix_path')
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/share/hyperdog_launch/hook/ament_prefix_path.ps1'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/share/hyperdog_launch/hook/ament_prefix_path.dsv'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/share/hyperdog_launch/hook/ament_prefix_path.sh'
+[0.919s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.919s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_msgs -- -j16 -l16
+[1.121s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_launch'
+[1.130s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.130s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_launch': PYTHONPATH=/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_launch/prefix_override:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hyperdog_launch build --build-base /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_launch/build install --record /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_launch/install.log --single-version-externally-managed
+[1.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_launch' returned '0': PYTHONPATH=/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_launch/prefix_override:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hyperdog_launch build --build-base /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_launch/build install --record /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_launch/install.log --single-version-externally-managed
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch' for CMake module files
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch' for CMake config files
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/lib'
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/bin'
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/lib/pkgconfig/hyperdog_launch.pc'
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/lib/python3.10/site-packages'
+[1.606s] Level 1:colcon.colcon_core.shell:create_environment_hook('hyperdog_launch', 'pythonpath')
+[1.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/share/hyperdog_launch/hook/pythonpath.ps1'
+[1.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/share/hyperdog_launch/hook/pythonpath.dsv'
+[1.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/share/hyperdog_launch/hook/pythonpath.sh'
+[1.616s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/bin'
+[1.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hyperdog_launch)
+[1.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/share/hyperdog_launch/package.ps1'
+[1.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/share/hyperdog_launch/package.dsv'
+[1.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/share/hyperdog_launch/package.sh'
+[1.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/share/hyperdog_launch/package.bash'
+[1.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/share/hyperdog_launch/package.zsh'
+[1.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_launch/share/colcon-core/packages/hyperdog_launch)
+[2.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_msgs -- -j16 -l16
+[2.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_msgs': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_msgs
+[2.472s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hyperdog_msgs)
+[2.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_msgs
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs' for CMake module files
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs' for CMake config files
+[2.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('hyperdog_msgs', 'cmake_prefix_path')
+[2.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/cmake_prefix_path.ps1'
+[2.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/cmake_prefix_path.dsv'
+[2.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/cmake_prefix_path.sh'
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib'
+[2.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('hyperdog_msgs', 'ld_library_path_lib')
+[2.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/ld_library_path_lib.ps1'
+[2.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/ld_library_path_lib.dsv'
+[2.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/ld_library_path_lib.sh'
+[2.506s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/bin'
+[2.506s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/pkgconfig/hyperdog_msgs.pc'
+[2.506s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages'
+[2.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('hyperdog_msgs', 'pythonpath')
+[2.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/pythonpath.ps1'
+[2.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/pythonpath.dsv'
+[2.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/pythonpath.sh'
+[2.517s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/bin'
+[2.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/package.ps1'
+[2.534s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/package.dsv'
+[2.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/package.sh'
+[2.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/package.bash'
+[2.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/package.zsh'
+[2.535s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/colcon-core/packages/hyperdog_msgs)
+[2.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hyperdog_msgs)
+[2.637s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs' for CMake module files
+[2.637s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs' for CMake config files
+[2.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('hyperdog_msgs', 'cmake_prefix_path')
+[2.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/cmake_prefix_path.ps1'
+[2.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/cmake_prefix_path.dsv'
+[2.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/cmake_prefix_path.sh'
+[2.647s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib'
+[2.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('hyperdog_msgs', 'ld_library_path_lib')
+[2.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/ld_library_path_lib.ps1'
+[2.657s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/ld_library_path_lib.dsv'
+[2.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/ld_library_path_lib.sh'
+[2.657s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/bin'
+[2.657s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/pkgconfig/hyperdog_msgs.pc'
+[2.657s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages'
+[2.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('hyperdog_msgs', 'pythonpath')
+[2.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/pythonpath.ps1'
+[2.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/pythonpath.dsv'
+[2.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/hook/pythonpath.sh'
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/bin'
+[2.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/package.ps1'
+[2.678s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/package.dsv'
+[2.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/package.sh'
+[2.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/package.bash'
+[2.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/hyperdog_msgs/package.zsh'
+[2.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/share/colcon-core/packages/hyperdog_msgs)
+[2.679s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_ctrl' with build type 'ament_python'
+[2.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('hyperdog_ctrl', 'ament_prefix_path')
+[2.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/share/hyperdog_ctrl/hook/ament_prefix_path.ps1'
+[2.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/share/hyperdog_ctrl/hook/ament_prefix_path.dsv'
+[2.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/share/hyperdog_ctrl/hook/ament_prefix_path.sh'
+[2.701s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.701s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.723s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_gazebo_sim' with build type 'ament_cmake'
+[2.723s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_gazebo_sim'
+[2.733s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.733s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.756s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_teleop' with build type 'ament_cmake'
+[2.756s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_teleop'
+[2.766s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.766s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.968s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_ctrl'
+[2.978s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.978s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim -- -j16 -l16
+[3.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_teleop': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_teleop -- -j16 -l16
+[3.272s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_ctrl': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/prefix_override:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages:/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hyperdog_ctrl build --build-base /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build install --record /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/install.log --single-version-externally-managed
+[3.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicoleibert/RRC-RnD-Catbot/src/hyperdog_ros2/hyperdog_ctrl' returned '0': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/prefix_override:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages:/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hyperdog_ctrl build --build-base /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/build install --record /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/install.log --single-version-externally-managed
+[3.524s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl' for CMake module files
+[3.524s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl' for CMake config files
+[3.525s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib'
+[3.525s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/bin'
+[3.525s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/pkgconfig/hyperdog_ctrl.pc'
+[3.525s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages'
+[3.525s] Level 1:colcon.colcon_core.shell:create_environment_hook('hyperdog_ctrl', 'pythonpath')
+[3.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/share/hyperdog_ctrl/hook/pythonpath.ps1'
+[3.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/share/hyperdog_ctrl/hook/pythonpath.dsv'
+[3.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/share/hyperdog_ctrl/hook/pythonpath.sh'
+[3.537s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/bin'
+[3.537s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hyperdog_ctrl)
+[3.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/share/hyperdog_ctrl/package.ps1'
+[3.547s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/share/hyperdog_ctrl/package.dsv'
+[3.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/share/hyperdog_ctrl/package.sh'
+[3.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/share/hyperdog_ctrl/package.bash'
+[3.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/share/hyperdog_ctrl/package.zsh'
+[3.548s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/share/colcon-core/packages/hyperdog_ctrl)
+[3.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim' returned '0': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim -- -j16 -l16
+[3.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_teleop' returned '0': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_teleop -- -j16 -l16
+[3.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim
+[3.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_teleop': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_teleop
+[3.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hyperdog_gazebo_sim)
+[3.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim' returned '0': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim
+[3.862s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim' for CMake module files
+[3.862s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim' for CMake config files
+[3.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('hyperdog_gazebo_sim', 'cmake_prefix_path')
+[3.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/hook/cmake_prefix_path.ps1'
+[3.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/hook/cmake_prefix_path.dsv'
+[3.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/hook/cmake_prefix_path.sh'
+[3.873s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/lib'
+[3.873s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/bin'
+[3.873s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/lib/pkgconfig/hyperdog_gazebo_sim.pc'
+[3.873s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/lib/python3.10/site-packages'
+[3.873s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/bin'
+[3.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/package.ps1'
+[3.884s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/package.dsv'
+[3.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/package.sh'
+[3.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/package.bash'
+[3.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/package.zsh'
+[3.885s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/colcon-core/packages/hyperdog_gazebo_sim)
+[3.886s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hyperdog_teleop)
+[3.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_teleop' returned '0': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_teleop
+[3.898s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop' for CMake module files
+[3.898s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop' for CMake config files
+[3.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('hyperdog_teleop', 'cmake_prefix_path')
+[3.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/hyperdog_teleop/hook/cmake_prefix_path.ps1'
+[3.909s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/hyperdog_teleop/hook/cmake_prefix_path.dsv'
+[3.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/hyperdog_teleop/hook/cmake_prefix_path.sh'
+[3.909s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/lib'
+[3.910s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/bin'
+[3.910s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/lib/pkgconfig/hyperdog_teleop.pc'
+[3.910s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/lib/python3.10/site-packages'
+[3.910s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/bin'
+[3.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/hyperdog_teleop/package.ps1'
+[3.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/hyperdog_teleop/package.dsv'
+[3.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/hyperdog_teleop/package.sh'
+[3.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/hyperdog_teleop/package.bash'
+[3.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/hyperdog_teleop/package.zsh'
+[3.921s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/colcon-core/packages/hyperdog_teleop)
+[3.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hyperdog_gazebo_sim)
+[3.943s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim' for CMake module files
+[3.943s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim' for CMake config files
+[3.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('hyperdog_gazebo_sim', 'cmake_prefix_path')
+[3.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/hook/cmake_prefix_path.ps1'
+[3.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/hook/cmake_prefix_path.dsv'
+[3.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/hook/cmake_prefix_path.sh'
+[3.954s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/lib'
+[3.954s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/bin'
+[3.954s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/lib/pkgconfig/hyperdog_gazebo_sim.pc'
+[3.954s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/lib/python3.10/site-packages'
+[3.954s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/bin'
+[3.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/package.ps1'
+[3.964s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/package.dsv'
+[3.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/package.sh'
+[3.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/package.bash'
+[3.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/package.zsh'
+[3.965s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_gazebo_sim/share/colcon-core/packages/hyperdog_gazebo_sim)
+[3.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hyperdog_teleop)
+[3.987s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop' for CMake module files
+[3.987s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop' for CMake config files
+[3.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('hyperdog_teleop', 'cmake_prefix_path')
+[3.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/hyperdog_teleop/hook/cmake_prefix_path.ps1'
+[3.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/hyperdog_teleop/hook/cmake_prefix_path.dsv'
+[3.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/hyperdog_teleop/hook/cmake_prefix_path.sh'
+[3.998s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/lib'
+[3.998s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/bin'
+[3.999s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/lib/pkgconfig/hyperdog_teleop.pc'
+[3.999s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/lib/python3.10/site-packages'
+[3.999s] Level 1:colcon.colcon_core.environment:checking '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/bin'
+[4.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/hyperdog_teleop/package.ps1'
+[4.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/hyperdog_teleop/package.dsv'
+[4.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/hyperdog_teleop/package.sh'
+[4.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/hyperdog_teleop/package.bash'
+[4.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/hyperdog_teleop/package.zsh'
+[4.010s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_teleop/share/colcon-core/packages/hyperdog_teleop)
+[4.010s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.010s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.010s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.010s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.025s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.025s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.025s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.034s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.045s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicoleibert/RRC-RnD-Catbot/install/local_setup.ps1'
+[4.045s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nicoleibert/RRC-RnD-Catbot/install/_local_setup_util_ps1.py'
+[4.046s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicoleibert/RRC-RnD-Catbot/install/setup.ps1'
+[4.057s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicoleibert/RRC-RnD-Catbot/install/local_setup.sh'
+[4.057s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nicoleibert/RRC-RnD-Catbot/install/_local_setup_util_sh.py'
+[4.057s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicoleibert/RRC-RnD-Catbot/install/setup.sh'
+[4.067s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicoleibert/RRC-RnD-Catbot/install/local_setup.bash'
+[4.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicoleibert/RRC-RnD-Catbot/install/setup.bash'
+[4.077s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicoleibert/RRC-RnD-Catbot/install/local_setup.zsh'
+[4.077s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicoleibert/RRC-RnD-Catbot/install/setup.zsh'

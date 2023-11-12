@@ -1,0 +1,22 @@
+-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)
+-- Found hyperdog_msgs: 0.0.0 (/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nicoleibert/hyperdog_ws/build/hyperdog_teleop
+[ 50%] [32mBuilding CXX object CMakeFiles/hyperdog_teleop_joy_node.dir/src/hyperdog_teleop_joy.cpp.o[0m
+[01m[K/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_teleop/src/hyperdog_teleop_joy.cpp:28:10:[m[K [01;31m[Kfatal error: [m[Ktrajectory_msgs/msg/joint_trajectory.hpp: No such file or directory
+   28 | #include [01;31m[K"trajectory_msgs/msg/joint_trajectory.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hyperdog_teleop_joy_node.dir/build.make:76: CMakeFiles/hyperdog_teleop_joy_node.dir/src/hyperdog_teleop_joy.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hyperdog_teleop_joy_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

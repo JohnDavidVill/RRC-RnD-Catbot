@@ -1,0 +1,68 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim/CMakeCache.txt is different than the directory /home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_gazebo_sim where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+-- Found hyperdog_msgs: 0.0.0 (/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake)
+-- Found nav_msgs: 5.0.0 (/opt/ros/iron/share/nav_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nicoleibert/hyperdog_ws/build/hyperdog_gazebo_sim
+[35m[1mConsolidate compiler generated dependencies of target hyperdog_gazebo_joint_ctrl_node[0m
+[35m[1mConsolidate compiler generated dependencies of target fake_odom[0m
+[ 50%] Built target fake_odom
+[100%] Built target hyperdog_gazebo_joint_ctrl_node
+-- Install configuration: ""
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/lib/hyperdog_gazebo_sim/hyperdog_gazebo_joint_ctrl_node
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/lib/hyperdog_gazebo_sim/fake_odom
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/config
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/config/hyperdog_joint_controller.yaml
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/description
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/description/physics.xacro
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/description/consts.xacro
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/description/hyperdog.urdf.xacro
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/description/hyperdog_urdf_links.xacro
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/description/hyperdog_gazebo.xacro
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/description/gazebo_ros2_control_plugin.xacro
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/description/hyperdog_urdf_joints.xacro
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/launch
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/launch/hyperdog_gazebo_sim.launch.py
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/launch/hyperdog_gazebo_sim_allPkgs.launch.py
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/LLEG.stl
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/RIGHT_ULEG.stl
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/body.stl
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/LEFT_ULEG.stl
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/LEFT_HIP.stl
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/RIGHT_HIP.stl
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/mm_scaled
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/mm_scaled/LLEG.dae
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/meshes/mm_scaled/LLEG.stl
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/worlds
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/worlds/dolly_city.world
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/worlds/test_world.world
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/worlds/contact.world
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/src
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/src/hyperdog_gazebo_joint_controller.cpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/src/fake_odom.cpp
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/ament_index/resource_index/package_run_dependencies/hyperdog_gazebo_sim
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/ament_index/resource_index/parent_prefix_path/hyperdog_gazebo_sim
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/environment/path.sh
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/environment/path.dsv
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/local_setup.bash
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/local_setup.sh
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/local_setup.zsh
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/local_setup.dsv
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/package.dsv
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/ament_index/resource_index/packages/hyperdog_gazebo_sim
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/cmake/hyperdog_gazebo_simConfig.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/cmake/hyperdog_gazebo_simConfig-version.cmake
+-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim/share/hyperdog_gazebo_sim/package.xml

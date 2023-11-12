@@ -1,0 +1,20 @@
+running egg_info
+writing ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/PKG-INFO
+writing dependency_links to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/dependency_links.txt
+writing entry points to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/entry_points.txt
+writing requirements to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/requires.txt
+writing top-level names to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/top_level.txt
+reading manifest file '../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/SOURCES.txt'
+writing manifest file '../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/hyperdog_ctrl-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info to /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/python3.10/site-packages/hyperdog_ctrl-0.0.0-py3.10.egg-info
+running install_scripts
+Installing IK_node script to /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/hyperdog_ctrl
+Installing cmd_manager_node script to /home/nicoleibert/RRC-RnD-Catbot/install/hyperdog_ctrl/lib/hyperdog_ctrl
+writing list of installed files to '/home/nicoleibert/RRC-RnD-Catbot/build/hyperdog_ctrl/install.log'

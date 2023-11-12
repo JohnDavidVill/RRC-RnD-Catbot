@@ -1,0 +1,680 @@
+[0.000000] (-) TimerEvent: {}
+[0.000181] (hyperdog_launch) JobQueued: {'identifier': 'hyperdog_launch', 'dependencies': OrderedDict()}
+[0.000268] (hyperdog_msgs) JobQueued: {'identifier': 'hyperdog_msgs', 'dependencies': OrderedDict()}
+[0.000290] (hyperdog_ctrl) JobQueued: {'identifier': 'hyperdog_ctrl', 'dependencies': OrderedDict([('hyperdog_msgs', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs')])}
+[0.000305] (hyperdog_gazebo_sim) JobQueued: {'identifier': 'hyperdog_gazebo_sim', 'dependencies': OrderedDict([('hyperdog_msgs', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs')])}
+[0.000319] (hyperdog_teleop) JobQueued: {'identifier': 'hyperdog_teleop', 'dependencies': OrderedDict([('hyperdog_msgs', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs')])}
+[0.000333] (hyperdog_msgs) JobStarted: {'identifier': 'hyperdog_msgs'}
+[0.048044] (hyperdog_launch) JobStarted: {'identifier': 'hyperdog_launch'}
+[0.096760] (hyperdog_msgs) JobProgress: {'identifier': 'hyperdog_msgs', 'progress': 'cmake'}
+[0.097017] (hyperdog_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_msgs', '-DCMAKE_INSTALL_PREFIX=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs'], 'cwd': '/home/nicoleibert/hyperdog_ws/build/hyperdog_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nicoleibert'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/nicoleibert'), ('OLDPWD', '/home/nicoleibert'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4047'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nicoleibert'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'nicoleibert'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/nicoleibert/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nicoleibert-MG-VCP15I-3070:@/tmp/.ICE-unix/2366,unix/nicoleibert-MG-VCP15I-3070:/tmp/.ICE-unix/2366'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8d93c491_5b4a_49f9_8edf_e4814fb7ea76'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '86'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicoleibert/hyperdog_ws/build/hyperdog_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.099342] (-) TimerEvent: {}
+[0.199640] (-) TimerEvent: {}
+[0.200052] (hyperdog_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.278243] (hyperdog_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.284947] (hyperdog_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299791] (-) TimerEvent: {}
+[0.342783] (hyperdog_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.348434] (hyperdog_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.348766] (hyperdog_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.349374] (hyperdog_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.351697] (hyperdog_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400022] (-) TimerEvent: {}
+[0.423282] (hyperdog_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.436789] (hyperdog_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.437937] (hyperdog_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.438198] (hyperdog_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.444315] (hyperdog_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.500185] (-) TimerEvent: {}
+[0.600616] (-) TimerEvent: {}
+[0.680034] (hyperdog_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.700806] (-) TimerEvent: {}
+[0.757069] (hyperdog_msgs) StdoutLine: {'line': b'-- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.798906] (hyperdog_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.800976] (-) TimerEvent: {}
+[0.810092] (hyperdog_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.826558] (hyperdog_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.844745] (hyperdog_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900948] (hyperdog_launch) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/hyperdog_launch', 'build', '--build-base', '/home/nicoleibert/hyperdog_ws/build/hyperdog_launch/build', 'install', '--record', '/home/nicoleibert/hyperdog_ws/build/hyperdog_launch/install.log', '--install-scripts', '$base/lib/hyperdog_launch', '--single-version-externally-managed'], 'cwd': '/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_launch', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicoleibert', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/nicoleibert', 'OLDPWD': '/home/nicoleibert', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4047', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/iron/', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'ROS_DISTRO': 'iron', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'nicoleibert', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'nicoleibert', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/iron/bin:/home/nicoleibert/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nicoleibert-MG-VCP15I-3070:@/tmp/.ICE-unix/2366,unix/nicoleibert-MG-VCP15I-3070:/tmp/.ICE-unix/2366', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8d93c491_5b4a_49f9_8edf_e4814fb7ea76', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.97', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '86', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicoleibert/hyperdog_ws/build/hyperdog_launch', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicoleibert/hyperdog_ws/build/hyperdog_launch/prefix_override:/home/nicoleibert/hyperdog_ws/install/hyperdog_launch/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.903421] (-) TimerEvent: {}
+[1.003738] (-) TimerEvent: {}
+[1.006760] (hyperdog_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[1.009688] (hyperdog_msgs) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.093889] (hyperdog_launch) StderrLine: {'line': b"/home/nicoleibert/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.094223] (hyperdog_launch) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.103898] (-) TimerEvent: {}
+[1.108208] (hyperdog_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.115864] (hyperdog_launch) StdoutLine: {'line': b'running egg_info\n'}
+[1.116306] (hyperdog_launch) StdoutLine: {'line': b'creating ../../../build/hyperdog_launch/hyperdog_launch.egg-info\n'}
+[1.116486] (hyperdog_launch) StdoutLine: {'line': b'writing ../../../build/hyperdog_launch/hyperdog_launch.egg-info/PKG-INFO\n'}
+[1.116568] (hyperdog_launch) StdoutLine: {'line': b'writing dependency_links to ../../../build/hyperdog_launch/hyperdog_launch.egg-info/dependency_links.txt\n'}
+[1.116655] (hyperdog_launch) StdoutLine: {'line': b'writing entry points to ../../../build/hyperdog_launch/hyperdog_launch.egg-info/entry_points.txt\n'}
+[1.116703] (hyperdog_launch) StdoutLine: {'line': b'writing requirements to ../../../build/hyperdog_launch/hyperdog_launch.egg-info/requires.txt\n'}
+[1.116747] (hyperdog_launch) StdoutLine: {'line': b'writing top-level names to ../../../build/hyperdog_launch/hyperdog_launch.egg-info/top_level.txt\n'}
+[1.116826] (hyperdog_launch) StdoutLine: {'line': b"writing manifest file '../../../build/hyperdog_launch/hyperdog_launch.egg-info/SOURCES.txt'\n"}
+[1.117972] (hyperdog_launch) StdoutLine: {'line': b"reading manifest file '../../../build/hyperdog_launch/hyperdog_launch.egg-info/SOURCES.txt'\n"}
+[1.118650] (hyperdog_launch) StdoutLine: {'line': b"writing manifest file '../../../build/hyperdog_launch/hyperdog_launch.egg-info/SOURCES.txt'\n"}
+[1.118732] (hyperdog_launch) StdoutLine: {'line': b'running build\n'}
+[1.118804] (hyperdog_launch) StdoutLine: {'line': b'running build_py\n'}
+[1.119023] (hyperdog_launch) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/build/hyperdog_launch/build\n'}
+[1.119176] (hyperdog_launch) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/build/hyperdog_launch/build/lib\n'}
+[1.119267] (hyperdog_launch) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/build/hyperdog_launch/build/lib/hyperdog_launch\n'}
+[1.119352] (hyperdog_launch) StdoutLine: {'line': b'copying hyperdog_launch/__init__.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_launch/build/lib/hyperdog_launch\n'}
+[1.119432] (hyperdog_launch) StdoutLine: {'line': b'running install\n'}
+[1.119610] (hyperdog_launch) StdoutLine: {'line': b'running install_lib\n'}
+[1.119749] (hyperdog_launch) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/lib/python3.10/site-packages/hyperdog_launch\n'}
+[1.119814] (hyperdog_launch) StdoutLine: {'line': b'copying /home/nicoleibert/hyperdog_ws/build/hyperdog_launch/build/lib/hyperdog_launch/__init__.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/lib/python3.10/site-packages/hyperdog_launch\n'}
+[1.120136] (hyperdog_launch) StdoutLine: {'line': b'byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/lib/python3.10/site-packages/hyperdog_launch/__init__.py to __init__.cpython-310.pyc\n'}
+[1.120272] (hyperdog_launch) StdoutLine: {'line': b'running install_data\n'}
+[1.120842] (hyperdog_launch) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/share/ament_index\n'}
+[1.120892] (hyperdog_launch) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/share/ament_index/resource_index\n'}
+[1.120965] (hyperdog_launch) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/share/ament_index/resource_index/packages\n'}
+[1.121015] (hyperdog_launch) StdoutLine: {'line': b'copying resource/hyperdog_launch -> /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/share/ament_index/resource_index/packages\n'}
+[1.121065] (hyperdog_launch) StdoutLine: {'line': b'copying package.xml -> /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/share/hyperdog_launch\n'}
+[1.121177] (hyperdog_launch) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/share/hyperdog_launch/launch\n'}
+[1.121269] (hyperdog_launch) StdoutLine: {'line': b'copying launch/hyperdog.launch.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/share/hyperdog_launch/launch\n'}
+[1.121319] (hyperdog_launch) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.122426] (hyperdog_launch) StdoutLine: {'line': b'Copying ../../../build/hyperdog_launch/hyperdog_launch.egg-info to /home/nicoleibert/hyperdog_ws/install/hyperdog_launch/lib/python3.10/site-packages/hyperdog_launch-0.0.0-py3.10.egg-info\n'}
+[1.122908] (hyperdog_launch) StdoutLine: {'line': b'running install_scripts\n'}
+[1.132840] (hyperdog_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[1.138679] (hyperdog_launch) StdoutLine: {'line': b"writing list of installed files to '/home/nicoleibert/hyperdog_ws/build/hyperdog_launch/install.log'\n"}
+[1.156524] (hyperdog_launch) CommandEnded: {'returncode': 0}
+[1.174337] (hyperdog_msgs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.204156] (-) TimerEvent: {}
+[1.218953] (hyperdog_launch) JobEnded: {'identifier': 'hyperdog_launch', 'rc': 0}
+[1.304371] (-) TimerEvent: {}
+[1.326266] (hyperdog_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[1.352490] (hyperdog_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[1.362902] (hyperdog_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[1.368467] (hyperdog_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[1.404546] (-) TimerEvent: {}
+[1.504961] (-) TimerEvent: {}
+[1.605327] (-) TimerEvent: {}
+[1.705646] (-) TimerEvent: {}
+[1.806029] (-) TimerEvent: {}
+[1.906479] (-) TimerEvent: {}
+[1.966400] (hyperdog_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[2.006637] (-) TimerEvent: {}
+[2.107054] (-) TimerEvent: {}
+[2.207491] (-) TimerEvent: {}
+[2.307905] (-) TimerEvent: {}
+[2.408375] (-) TimerEvent: {}
+[2.508802] (-) TimerEvent: {}
+[2.609273] (-) TimerEvent: {}
+[2.658912] (hyperdog_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.709373] (-) TimerEvent: {}
+[2.809737] (-) TimerEvent: {}
+[2.910117] (-) TimerEvent: {}
+[2.926964] (hyperdog_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.965088] (hyperdog_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.968099] (hyperdog_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[3.010231] (-) TimerEvent: {}
+[3.011236] (hyperdog_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.011743] (hyperdog_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.011965] (hyperdog_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.012084] (hyperdog_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.046330] (hyperdog_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.110356] (-) TimerEvent: {}
+[3.152570] (hyperdog_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.210538] (-) TimerEvent: {}
+[3.213084] (hyperdog_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.217284] (hyperdog_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/nicoleibert/hyperdog_ws/build/hyperdog_msgs\n'}
+[3.235805] (hyperdog_msgs) CommandEnded: {'returncode': 0}
+[3.236769] (hyperdog_msgs) JobProgress: {'identifier': 'hyperdog_msgs', 'progress': 'build'}
+[3.238048] (hyperdog_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nicoleibert/hyperdog_ws/build/hyperdog_msgs', '--', '-j16', '-l16'], 'cwd': '/home/nicoleibert/hyperdog_ws/build/hyperdog_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nicoleibert'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/nicoleibert'), ('OLDPWD', '/home/nicoleibert'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4047'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nicoleibert'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'nicoleibert'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/nicoleibert/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nicoleibert-MG-VCP15I-3070:@/tmp/.ICE-unix/2366,unix/nicoleibert-MG-VCP15I-3070:/tmp/.ICE-unix/2366'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8d93c491_5b4a_49f9_8edf_e4814fb7ea76'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '86'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicoleibert/hyperdog_ws/build/hyperdog_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[3.310739] (-) TimerEvent: {}
+[3.319677] (hyperdog_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[3.333530] (hyperdog_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_hyperdog_msgs\n'}
+[3.410928] (-) TimerEvent: {}
+[3.511443] (-) TimerEvent: {}
+[3.611929] (-) TimerEvent: {}
+[3.620212] (hyperdog_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.620630] (hyperdog_msgs) StdoutLine: {'line': b'creating hyperdog_msgs.egg-info\n'}
+[3.620883] (hyperdog_msgs) StdoutLine: {'line': b'writing hyperdog_msgs.egg-info/PKG-INFO\n'}
+[3.621062] (hyperdog_msgs) StdoutLine: {'line': b'writing dependency_links to hyperdog_msgs.egg-info/dependency_links.txt\n'}
+[3.621332] (hyperdog_msgs) StdoutLine: {'line': b'writing top-level names to hyperdog_msgs.egg-info/top_level.txt\n'}
+[3.621482] (hyperdog_msgs) StdoutLine: {'line': b"writing manifest file 'hyperdog_msgs.egg-info/SOURCES.txt'\n"}
+[3.622837] (hyperdog_msgs) StdoutLine: {'line': b"reading manifest file 'hyperdog_msgs.egg-info/SOURCES.txt'\n"}
+[3.623245] (hyperdog_msgs) StdoutLine: {'line': b"writing manifest file 'hyperdog_msgs.egg-info/SOURCES.txt'\n"}
+[3.642994] (hyperdog_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_hyperdog_msgs_egg\n'}
+[3.680549] (hyperdog_msgs) StdoutLine: {'line': b'[  1%] Built target hyperdog_msgs__rosidl_generator_type_description\n'}
+[3.689758] (hyperdog_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.703215] (hyperdog_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.712088] (-) TimerEvent: {}
+[3.812509] (-) TimerEvent: {}
+[3.912966] (-) TimerEvent: {}
+[4.013360] (-) TimerEvent: {}
+[4.095590] (hyperdog_msgs) StdoutLine: {'line': b'[  5%] Built target hyperdog_msgs__cpp\n'}
+[4.113458] (-) TimerEvent: {}
+[4.175058] (hyperdog_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_generator_c.dir/rosidl_generator_c/hyperdog_msgs/msg/detail/joy_ctrl_cmds__type_support.c.o\x1b[0m\n'}
+[4.175853] (hyperdog_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_generator_c.dir/rosidl_generator_c/hyperdog_msgs/msg/detail/limits__description.c.o\x1b[0m\n'}
+[4.176025] (hyperdog_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_generator_c.dir/rosidl_generator_c/hyperdog_msgs/msg/detail/joy_ctrl_cmds__functions.c.o\x1b[0m\n'}
+[4.176182] (hyperdog_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_generator_c.dir/rosidl_generator_c/hyperdog_msgs/msg/detail/limits__functions.c.o\x1b[0m\n'}
+[4.176459] (hyperdog_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_generator_c.dir/rosidl_generator_c/hyperdog_msgs/msg/detail/limits__type_support.c.o\x1b[0m\n'}
+[4.176614] (hyperdog_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_generator_c.dir/rosidl_generator_c/hyperdog_msgs/msg/detail/geometry__description.c.o\x1b[0m\n'}
+[4.176752] (hyperdog_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_generator_c.dir/rosidl_generator_c/hyperdog_msgs/msg/detail/joy_ctrl_cmds__description.c.o\x1b[0m\n'}
+[4.176987] (hyperdog_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_generator_c.dir/rosidl_generator_c/hyperdog_msgs/msg/detail/geometry__functions.c.o\x1b[0m\n'}
+[4.180547] (hyperdog_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_generator_c.dir/rosidl_generator_c/hyperdog_msgs/msg/detail/geometry__type_support.c.o\x1b[0m\n'}
+[4.213593] (-) TimerEvent: {}
+[4.249987] (hyperdog_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libhyperdog_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[4.313725] (-) TimerEvent: {}
+[4.314151] (hyperdog_msgs) StdoutLine: {'line': b'[ 24%] Built target hyperdog_msgs__rosidl_generator_c\n'}
+[4.329406] (hyperdog_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.330306] (hyperdog_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.330766] (hyperdog_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.331625] (hyperdog_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.332012] (hyperdog_msgs) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.332367] (hyperdog_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.413875] (-) TimerEvent: {}
+[4.514324] (-) TimerEvent: {}
+[4.614676] (-) TimerEvent: {}
+[4.715030] (-) TimerEvent: {}
+[4.774647] (hyperdog_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/hyperdog_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hyperdog_msgs/msg/geometry__type_support.cpp.o\x1b[0m\n'}
+[4.775160] (hyperdog_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/hyperdog_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hyperdog_msgs/msg/limits__type_support.cpp.o\x1b[0m\n'}
+[4.775287] (hyperdog_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/hyperdog_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hyperdog_msgs/msg/joy_ctrl_cmds__type_support.cpp.o\x1b[0m\n'}
+[4.775494] (hyperdog_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/hyperdog_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hyperdog_msgs/msg/joy_ctrl_cmds__type_support.cpp.o\x1b[0m\n'}
+[4.779923] (hyperdog_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/hyperdog_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hyperdog_msgs/msg/limits__type_support.cpp.o\x1b[0m\n'}
+[4.780146] (hyperdog_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/hyperdog_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hyperdog_msgs/msg/geometry__type_support.cpp.o\x1b[0m\n'}
+[4.815168] (-) TimerEvent: {}
+[4.823835] (hyperdog_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/hyperdog_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hyperdog_msgs/msg/detail/joy_ctrl_cmds__type_support.cpp.o\x1b[0m\n'}
+[4.832335] (hyperdog_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hyperdog_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hyperdog_msgs/msg/detail/limits__type_support.cpp.o\x1b[0m\n'}
+[4.832760] (hyperdog_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/hyperdog_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hyperdog_msgs/msg/detail/geometry__type_support.cpp.o\x1b[0m\n'}
+[4.835875] (hyperdog_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hyperdog_msgs/msg/detail/geometry__type_support.c.o\x1b[0m\n'}
+[4.836653] (hyperdog_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hyperdog_msgs/msg/detail/limits__type_support.c.o\x1b[0m\n'}
+[4.837356] (hyperdog_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hyperdog_msgs/msg/detail/joy_ctrl_cmds__type_support.c.o\x1b[0m\n'}
+[4.843396] (hyperdog_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libhyperdog_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.843988] (hyperdog_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/hyperdog_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hyperdog_msgs/msg/detail/limits__type_support_c.cpp.o\x1b[0m\n'}
+[4.845757] (hyperdog_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/hyperdog_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hyperdog_msgs/msg/detail/geometry__type_support_c.cpp.o\x1b[0m\n'}
+[4.846009] (hyperdog_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/hyperdog_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hyperdog_msgs/msg/detail/joy_ctrl_cmds__type_support_c.cpp.o\x1b[0m\n'}
+[4.858911] (hyperdog_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/hyperdog_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hyperdog_msgs/msg/detail/dds_fastrtps/joy_ctrl_cmds__type_support.cpp.o\x1b[0m\n'}
+[4.859178] (hyperdog_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/hyperdog_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hyperdog_msgs/msg/detail/dds_fastrtps/limits__type_support.cpp.o\x1b[0m\n'}
+[4.859341] (hyperdog_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/hyperdog_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hyperdog_msgs/msg/detail/dds_fastrtps/geometry__type_support.cpp.o\x1b[0m\n'}
+[4.900745] (hyperdog_msgs) StdoutLine: {'line': b'[ 70%] Built target hyperdog_msgs__rosidl_typesupport_c\n'}
+[4.902847] (hyperdog_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking C shared library libhyperdog_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.915287] (-) TimerEvent: {}
+[4.936730] (hyperdog_msgs) StdoutLine: {'line': b'[ 72%] Built target hyperdog_msgs__rosidl_typesupport_introspection_c\n'}
+[5.015423] (-) TimerEvent: {}
+[5.115839] (-) TimerEvent: {}
+[5.216365] (-) TimerEvent: {}
+[5.316784] (-) TimerEvent: {}
+[5.398168] (hyperdog_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libhyperdog_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.398452] (hyperdog_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libhyperdog_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.416914] (-) TimerEvent: {}
+[5.440268] (hyperdog_msgs) StdoutLine: {'line': b'[ 75%] Built target hyperdog_msgs__rosidl_typesupport_cpp\n'}
+[5.448439] (hyperdog_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libhyperdog_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.472378] (hyperdog_msgs) StdoutLine: {'line': b'[ 77%] Built target hyperdog_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.515552] (hyperdog_msgs) StdoutLine: {'line': b'[ 77%] Built target hyperdog_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.516991] (-) TimerEvent: {}
+[5.565768] (hyperdog_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libhyperdog_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.617202] (-) TimerEvent: {}
+[5.690095] (hyperdog_msgs) StdoutLine: {'line': b'[ 79%] Built target hyperdog_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.717299] (-) TimerEvent: {}
+[5.722074] (hyperdog_msgs) StdoutLine: {'line': b'[ 79%] Built target hyperdog_msgs\n'}
+[5.753647] (hyperdog_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.817419] (-) TimerEvent: {}
+[5.917779] (-) TimerEvent: {}
+[6.018014] (-) TimerEvent: {}
+[6.118236] (-) TimerEvent: {}
+[6.218438] (-) TimerEvent: {}
+[6.318648] (-) TimerEvent: {}
+[6.338886] (hyperdog_msgs) StdoutLine: {'line': b'[ 81%] Built target hyperdog_msgs__py\n'}
+[6.368775] (hyperdog_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_generator_py.dir/rosidl_generator_py/hyperdog_msgs/msg/_joy_ctrl_cmds_s.c.o\x1b[0m\n'}
+[6.369585] (hyperdog_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_generator_py.dir/rosidl_generator_py/hyperdog_msgs/msg/_limits_s.c.o\x1b[0m\n'}
+[6.369988] (hyperdog_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_generator_py.dir/rosidl_generator_py/hyperdog_msgs/msg/_geometry_s.c.o\x1b[0m\n'}
+[6.418796] (-) TimerEvent: {}
+[6.519303] (-) TimerEvent: {}
+[6.537926] (hyperdog_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hyperdog_msgs/libhyperdog_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[6.608466] (hyperdog_msgs) StdoutLine: {'line': b'[ 88%] Built target hyperdog_msgs__rosidl_generator_py\n'}
+[6.619466] (-) TimerEvent: {}
+[6.640508] (hyperdog_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hyperdog_msgs/_hyperdog_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.640807] (hyperdog_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hyperdog_msgs/_hyperdog_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.641194] (hyperdog_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/hyperdog_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hyperdog_msgs/_hyperdog_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.719682] (-) TimerEvent: {}
+[6.805597] (hyperdog_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.805896] (hyperdog_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.806030] (hyperdog_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.819837] (-) TimerEvent: {}
+[6.872074] (hyperdog_msgs) StdoutLine: {'line': b'[100%] Built target hyperdog_msgs__rosidl_typesupport_c__pyext\n'}
+[6.872756] (hyperdog_msgs) StdoutLine: {'line': b'[100%] Built target hyperdog_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.873302] (hyperdog_msgs) StdoutLine: {'line': b'[100%] Built target hyperdog_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.891754] (hyperdog_msgs) CommandEnded: {'returncode': 0}
+[6.920036] (-) TimerEvent: {}
+[7.020753] (-) TimerEvent: {}
+[7.072929] (hyperdog_msgs) JobProgress: {'identifier': 'hyperdog_msgs', 'progress': 'install'}
+[7.087862] (hyperdog_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nicoleibert/hyperdog_ws/build/hyperdog_msgs'], 'cwd': '/home/nicoleibert/hyperdog_ws/build/hyperdog_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nicoleibert'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/nicoleibert'), ('OLDPWD', '/home/nicoleibert'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4047'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nicoleibert'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'nicoleibert'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/nicoleibert/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nicoleibert-MG-VCP15I-3070:@/tmp/.ICE-unix/2366,unix/nicoleibert-MG-VCP15I-3070:/tmp/.ICE-unix/2366'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8d93c491_5b4a_49f9_8edf_e4814fb7ea76'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '86'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicoleibert/hyperdog_ws/build/hyperdog_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[7.100572] (hyperdog_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.100889] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/ament_index/resource_index/rosidl_interfaces/hyperdog_msgs\n'}
+[7.101074] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/JoyCtrlCmds.json\n'}
+[7.101463] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/Limits.json\n'}
+[7.101846] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/Geometry.json\n'}
+[7.102062] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs\n'}
+[7.102355] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg\n'}
+[7.102647] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/joy_ctrl_cmds.h\n'}
+[7.102778] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/limits.h\n'}
+[7.102890] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/geometry.h\n'}
+[7.102995] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.103102] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail\n'}
+[7.103204] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__type_support.h\n'}
+[7.103405] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__type_support.c\n'}
+[7.103542] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__type_support.c\n'}
+[7.103646] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__type_support.h\n'}
+[7.103749] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__functions.h\n'}
+[7.103857] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__description.c\n'}
+[7.103949] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__struct.h\n'}
+[7.103993] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__struct.h\n'}
+[7.104059] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__functions.h\n'}
+[7.104106] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__type_support.c\n'}
+[7.104151] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__functions.h\n'}
+[7.104194] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__functions.c\n'}
+[7.104239] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__functions.c\n'}
+[7.104288] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__struct.h\n'}
+[7.104355] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__description.c\n'}
+[7.104399] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__functions.c\n'}
+[7.104442] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__type_support.h\n'}
+[7.104486] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__description.c\n'}
+[7.104554] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/environment/library_path.sh\n'}
+[7.104600] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/environment/library_path.dsv\n'}
+[7.104642] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_generator_c.so\n'}
+[7.104734] (hyperdog_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_generator_c.so" to ""\n'}
+[7.104791] (hyperdog_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs\n'}
+[7.104858] (hyperdog_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg\n'}
+[7.104905] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.104973] (hyperdog_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail\n'}
+[7.105033] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__rosidl_typesupport_fastrtps_c.h\n'}
+[7.105080] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__rosidl_typesupport_fastrtps_c.h\n'}
+[7.105124] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__rosidl_typesupport_fastrtps_c.h\n'}
+[7.105189] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.105320] (hyperdog_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.105392] (hyperdog_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs\n'}
+[7.105437] (hyperdog_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg\n'}
+[7.105481] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/joy_ctrl_cmds.hpp\n'}
+[7.105540] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/limits.hpp\n'}
+[7.105611] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/geometry.hpp\n'}
+[7.105657] (hyperdog_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail\n'}
+[7.105716] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__struct.hpp\n'}
+[7.105792] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__traits.hpp\n'}
+[7.105843] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__builder.hpp\n'}
+[7.105894] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__builder.hpp\n'}
+[7.105970] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__traits.hpp\n'}
+[7.106023] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__struct.hpp\n'}
+[7.106074] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__traits.hpp\n'}
+[7.106151] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__builder.hpp\n'}
+[7.106203] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__struct.hpp\n'}
+[7.106253] (hyperdog_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs\n'}
+[7.106303] (hyperdog_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg\n'}
+[7.106371] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.106455] (hyperdog_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail\n'}
+[7.106504] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.106553] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/dds_fastrtps\n'}
+[7.106603] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.106653] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.106719] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.106798] (hyperdog_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.106850] (hyperdog_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs\n'}
+[7.106920] (hyperdog_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg\n'}
+[7.106972] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.107040] (hyperdog_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail\n'}
+[7.107091] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__rosidl_typesupport_introspection_c.h\n'}
+[7.107141] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__type_support.c\n'}
+[7.107217] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__type_support.c\n'}
+[7.107268] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__rosidl_typesupport_introspection_c.h\n'}
+[7.107318] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__rosidl_typesupport_introspection_c.h\n'}
+[7.107390] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__type_support.c\n'}
+[7.107441] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.107546] (hyperdog_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.107611] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_c.so\n'}
+[7.107762] (hyperdog_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_c.so" to ""\n'}
+[7.107837] (hyperdog_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs\n'}
+[7.107896] (hyperdog_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg\n'}
+[7.107944] (hyperdog_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail\n'}
+[7.107992] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__type_support.cpp\n'}
+[7.108066] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/limits__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.108113] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__type_support.cpp\n'}
+[7.108161] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.108232] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/geometry__type_support.cpp\n'}
+[7.108280] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/include/hyperdog_msgs/hyperdog_msgs/msg/detail/joy_ctrl_cmds__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.108346] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.108500] (hyperdog_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.108566] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_cpp.so\n'}
+[7.108739] (hyperdog_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[7.108806] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/environment/pythonpath.sh\n'}
+[7.108867] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/environment/pythonpath.dsv\n'}
+[7.108929] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs-0.0.0-py3.10.egg-info\n'}
+[7.108994] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.109059] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.109138] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.109250] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.109343] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs\n'}
+[7.109418] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.109504] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/_hyperdog_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[7.109577] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/_hyperdog_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.109663] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.109715] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.109794] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg\n'}
+[7.109844] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/_geometry.py\n'}
+[7.109939] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/_geometry_s.c\n'}
+[7.109987] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/_joy_ctrl_cmds.py\n'}
+[7.110038] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/_joy_ctrl_cmds_s.c\n'}
+[7.110123] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/__init__.py\n'}
+[7.110212] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/_limits_s.c\n'}
+[7.110266] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/_limits.py\n'}
+[7.110349] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/__init__.py\n'}
+[7.110395] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/libhyperdog_msgs__rosidl_generator_py.so\n'}
+[7.110441] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/_hyperdog_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.120812] (-) TimerEvent: {}
+[7.158245] (hyperdog_msgs) StdoutLine: {'line': b"Listing '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs'...\n"}
+[7.158444] (hyperdog_msgs) StdoutLine: {'line': b"Compiling '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/__init__.py'...\n"}
+[7.158554] (hyperdog_msgs) StdoutLine: {'line': b"Listing '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg'...\n"}
+[7.158647] (hyperdog_msgs) StdoutLine: {'line': b"Compiling '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/__init__.py'...\n"}
+[7.158738] (hyperdog_msgs) StdoutLine: {'line': b"Compiling '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/_geometry.py'...\n"}
+[7.158828] (hyperdog_msgs) StdoutLine: {'line': b"Compiling '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/_joy_ctrl_cmds.py'...\n"}
+[7.158916] (hyperdog_msgs) StdoutLine: {'line': b"Compiling '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/msg/_limits.py'...\n"}
+[7.166599] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.166989] (hyperdog_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.167375] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.167751] (hyperdog_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.167970] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.168240] (hyperdog_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages/hyperdog_msgs/hyperdog_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.168474] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_generator_py.so\n'}
+[7.168782] (hyperdog_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/libhyperdog_msgs__rosidl_generator_py.so" to ""\n'}
+[7.169172] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/JoyCtrlCmds.idl\n'}
+[7.169333] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/Limits.idl\n'}
+[7.169440] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/Geometry.idl\n'}
+[7.169540] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/JoyCtrlCmds.msg\n'}
+[7.169687] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/Limits.msg\n'}
+[7.169849] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/msg/Geometry.msg\n'}
+[7.169953] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/ament_index/resource_index/package_run_dependencies/hyperdog_msgs\n'}
+[7.170050] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/ament_index/resource_index/parent_prefix_path/hyperdog_msgs\n'}
+[7.170207] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/environment/ament_prefix_path.sh\n'}
+[7.170310] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/environment/ament_prefix_path.dsv\n'}
+[7.170450] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/environment/path.sh\n'}
+[7.170548] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/environment/path.dsv\n'}
+[7.170606] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/local_setup.bash\n'}
+[7.170664] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/local_setup.sh\n'}
+[7.170734] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/local_setup.zsh\n'}
+[7.170793] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/local_setup.dsv\n'}
+[7.170861] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/package.dsv\n'}
+[7.170918] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/ament_index/resource_index/packages/hyperdog_msgs\n'}
+[7.170988] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_generator_cExport.cmake\n'}
+[7.171054] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.171128] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.171203] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.171273] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.171341] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.171409] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.171484] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.171553] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.171624] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.171689] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.171757] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.171834] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.171918] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.171998] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.172080] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_generator_pyExport.cmake\n'}
+[7.172157] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/export_hyperdog_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.172231] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.172305] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.172395] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.172474] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.172549] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.172620] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.172693] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.172775] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgsConfig.cmake\n'}
+[7.172847] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake/hyperdog_msgsConfig-version.cmake\n'}
+[7.172932] (hyperdog_msgs) StdoutLine: {'line': b'-- Installing: /home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/package.xml\n'}
+[7.175931] (hyperdog_msgs) CommandEnded: {'returncode': 0}
+[7.221802] (-) TimerEvent: {}
+[7.322271] (-) TimerEvent: {}
+[7.422634] (-) TimerEvent: {}
+[7.444428] (hyperdog_msgs) JobEnded: {'identifier': 'hyperdog_msgs', 'rc': 0}
+[7.445156] (hyperdog_ctrl) JobStarted: {'identifier': 'hyperdog_ctrl'}
+[7.489926] (hyperdog_gazebo_sim) JobStarted: {'identifier': 'hyperdog_gazebo_sim'}
+[7.522848] (-) TimerEvent: {}
+[7.526243] (hyperdog_teleop) JobStarted: {'identifier': 'hyperdog_teleop'}
+[7.623021] (-) TimerEvent: {}
+[7.723473] (-) TimerEvent: {}
+[7.793614] (hyperdog_gazebo_sim) JobProgress: {'identifier': 'hyperdog_gazebo_sim', 'progress': 'cmake'}
+[7.794545] (hyperdog_gazebo_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_gazebo_sim', '-DCMAKE_INSTALL_PREFIX=/home/nicoleibert/hyperdog_ws/install/hyperdog_gazebo_sim'], 'cwd': '/home/nicoleibert/hyperdog_ws/build/hyperdog_gazebo_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nicoleibert'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/nicoleibert'), ('OLDPWD', '/home/nicoleibert'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4047'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nicoleibert'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'nicoleibert'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/nicoleibert/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nicoleibert-MG-VCP15I-3070:@/tmp/.ICE-unix/2366,unix/nicoleibert-MG-VCP15I-3070:/tmp/.ICE-unix/2366'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8d93c491_5b4a_49f9_8edf_e4814fb7ea76'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '86'), ('AMENT_PREFIX_PATH', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicoleibert/hyperdog_ws/build/hyperdog_gazebo_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:/opt/ros/iron')]), 'shell': False}
+[7.798195] (hyperdog_teleop) JobProgress: {'identifier': 'hyperdog_teleop', 'progress': 'cmake'}
+[7.798830] (hyperdog_teleop) Command: {'cmd': ['/usr/bin/cmake', '/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_teleop', '-DCMAKE_INSTALL_PREFIX=/home/nicoleibert/hyperdog_ws/install/hyperdog_teleop'], 'cwd': '/home/nicoleibert/hyperdog_ws/build/hyperdog_teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nicoleibert'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/nicoleibert'), ('OLDPWD', '/home/nicoleibert'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4047'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nicoleibert'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'nicoleibert'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/nicoleibert/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nicoleibert-MG-VCP15I-3070:@/tmp/.ICE-unix/2366,unix/nicoleibert-MG-VCP15I-3070:/tmp/.ICE-unix/2366'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8d93c491_5b4a_49f9_8edf_e4814fb7ea76'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '86'), ('AMENT_PREFIX_PATH', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicoleibert/hyperdog_ws/build/hyperdog_teleop'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:/opt/ros/iron')]), 'shell': False}
+[7.823659] (-) TimerEvent: {}
+[7.866673] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[7.872901] (hyperdog_teleop) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[7.923851] (-) TimerEvent: {}
+[7.928271] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[7.930374] (hyperdog_teleop) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[7.935684] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.936736] (hyperdog_teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.997347] (hyperdog_teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.997651] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.003408] (hyperdog_teleop) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.003935] (hyperdog_teleop) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.004077] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.004137] (hyperdog_teleop) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.004244] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.004300] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.006400] (hyperdog_teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.006899] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.023958] (-) TimerEvent: {}
+[8.077596] (hyperdog_teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.077905] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.084262] (hyperdog_teleop) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.084553] (hyperdog_teleop) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.084743] (hyperdog_teleop) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.084977] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.085219] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.085443] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.086945] (hyperdog_teleop) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[8.087112] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[8.124143] (-) TimerEvent: {}
+[8.164872] (hyperdog_ctrl) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/hyperdog_ctrl', 'build', '--build-base', '/home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build', 'install', '--record', '/home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/install.log', '--install-scripts', '$base/lib/hyperdog_ctrl', '--single-version-externally-managed'], 'cwd': '/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_ctrl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicoleibert', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/home/nicoleibert', 'OLDPWD': '/home/nicoleibert', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4047', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/iron/', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'ROS_DISTRO': 'iron', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'nicoleibert', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'nicoleibert', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/iron/bin:/home/nicoleibert/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nicoleibert-MG-VCP15I-3070:@/tmp/.ICE-unix/2366,unix/nicoleibert-MG-VCP15I-3070:/tmp/.ICE-unix/2366', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8d93c491_5b4a_49f9_8edf_e4814fb7ea76', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.97', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '86', 'AMENT_PREFIX_PATH': '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:/opt/ros/iron', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/prefix_override:/home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages:/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs'}, 'shell': False}
+[8.224287] (-) TimerEvent: {}
+[8.289398] (hyperdog_teleop) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[8.293771] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[8.324378] (-) TimerEvent: {}
+[8.372715] (hyperdog_teleop) StdoutLine: {'line': b'-- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[8.373865] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[8.409927] (hyperdog_teleop) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[8.410901] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[8.420414] (hyperdog_teleop) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[8.421465] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[8.424565] (-) TimerEvent: {}
+[8.428855] (hyperdog_ctrl) StderrLine: {'line': b"/home/nicoleibert/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[8.429077] (hyperdog_ctrl) StderrLine: {'line': b'  warnings.warn(\n'}
+[8.434655] (hyperdog_teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.435650] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.451647] (hyperdog_teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.452821] (hyperdog_ctrl) StdoutLine: {'line': b'running egg_info\n'}
+[8.453012] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.453345] (hyperdog_ctrl) StdoutLine: {'line': b'creating ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info\n'}
+[8.453669] (hyperdog_ctrl) StdoutLine: {'line': b'writing ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/PKG-INFO\n'}
+[8.454034] (hyperdog_ctrl) StdoutLine: {'line': b'writing dependency_links to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/dependency_links.txt\n'}
+[8.454243] (hyperdog_ctrl) StdoutLine: {'line': b'writing entry points to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/entry_points.txt\n'}
+[8.454302] (hyperdog_ctrl) StdoutLine: {'line': b'writing requirements to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/requires.txt\n'}
+[8.454353] (hyperdog_ctrl) StdoutLine: {'line': b'writing top-level names to ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/top_level.txt\n'}
+[8.454404] (hyperdog_ctrl) StdoutLine: {'line': b"writing manifest file '../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/SOURCES.txt'\n"}
+[8.455869] (hyperdog_ctrl) StdoutLine: {'line': b"reading manifest file '../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/SOURCES.txt'\n"}
+[8.456479] (hyperdog_ctrl) StdoutLine: {'line': b"writing manifest file '../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info/SOURCES.txt'\n"}
+[8.456621] (hyperdog_ctrl) StdoutLine: {'line': b'running build\n'}
+[8.456689] (hyperdog_ctrl) StdoutLine: {'line': b'running build_py\n'}
+[8.456748] (hyperdog_ctrl) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build\n'}
+[8.456845] (hyperdog_ctrl) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib\n'}
+[8.456907] (hyperdog_ctrl) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK\n'}
+[8.456965] (hyperdog_ctrl) StdoutLine: {'line': b'copying IK/InverseKinematics.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK\n'}
+[8.457020] (hyperdog_ctrl) StdoutLine: {'line': b'copying IK/__init__.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK\n'}
+[8.457078] (hyperdog_ctrl) StdoutLine: {'line': b'copying IK/inverse_kinematic_node.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK\n'}
+[8.457174] (hyperdog_ctrl) StdoutLine: {'line': b'copying IK/controlVariables.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK\n'}
+[8.457238] (hyperdog_ctrl) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager\n'}
+[8.457298] (hyperdog_ctrl) StdoutLine: {'line': b'copying cmd_manager/main.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager\n'}
+[8.457383] (hyperdog_ctrl) StdoutLine: {'line': b'copying cmd_manager/__init__.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager\n'}
+[8.457438] (hyperdog_ctrl) StdoutLine: {'line': b'copying cmd_manager/cmd_manager_node.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager\n'}
+[8.457500] (hyperdog_ctrl) StdoutLine: {'line': b'copying cmd_manager/hyperdog_variables.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager\n'}
+[8.457584] (hyperdog_ctrl) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/body_motion_planner\n'}
+[8.457644] (hyperdog_ctrl) StdoutLine: {'line': b'copying body_motion_planner/__init__.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/body_motion_planner\n'}
+[8.457698] (hyperdog_ctrl) StdoutLine: {'line': b'copying body_motion_planner/body_motion_planner.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/body_motion_planner\n'}
+[8.457785] (hyperdog_ctrl) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/gait_generator\n'}
+[8.457844] (hyperdog_ctrl) StdoutLine: {'line': b'copying gait_generator/gait_planner.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/gait_generator\n'}
+[8.457921] (hyperdog_ctrl) StdoutLine: {'line': b'copying gait_generator/__init__.py -> /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/gait_generator\n'}
+[8.458150] (hyperdog_ctrl) StdoutLine: {'line': b'running install\n'}
+[8.458478] (hyperdog_ctrl) StdoutLine: {'line': b'running install_lib\n'}
+[8.459059] (hyperdog_ctrl) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager\n'}
+[8.459139] (hyperdog_ctrl) StdoutLine: {'line': b'copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager/main.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager\n'}
+[8.459214] (hyperdog_ctrl) StdoutLine: {'line': b'copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager/__init__.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager\n'}
+[8.459301] (hyperdog_ctrl) StdoutLine: {'line': b'copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager/cmd_manager_node.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager\n'}
+[8.459389] (hyperdog_ctrl) StdoutLine: {'line': b'copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/cmd_manager/hyperdog_variables.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager\n'}
+[8.459480] (hyperdog_ctrl) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/body_motion_planner\n'}
+[8.459551] (hyperdog_ctrl) StdoutLine: {'line': b'copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/body_motion_planner/__init__.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/body_motion_planner\n'}
+[8.459629] (hyperdog_ctrl) StdoutLine: {'line': b'copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/body_motion_planner/body_motion_planner.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/body_motion_planner\n'}
+[8.459811] (hyperdog_ctrl) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/gait_generator\n'}
+[8.459890] (hyperdog_ctrl) StdoutLine: {'line': b'copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/gait_generator/gait_planner.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/gait_generator\n'}
+[8.459965] (hyperdog_ctrl) StdoutLine: {'line': b'copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/gait_generator/__init__.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/gait_generator\n'}
+[8.460037] (hyperdog_ctrl) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK\n'}
+[8.460104] (hyperdog_ctrl) StdoutLine: {'line': b'copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK/InverseKinematics.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK\n'}
+[8.460177] (hyperdog_ctrl) StdoutLine: {'line': b'copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK/__init__.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK\n'}
+[8.460260] (hyperdog_ctrl) StdoutLine: {'line': b'copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK/inverse_kinematic_node.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK\n'}
+[8.460313] (hyperdog_ctrl) StdoutLine: {'line': b'copying /home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/build/lib/IK/controlVariables.py -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK\n'}
+[8.460713] (hyperdog_ctrl) StdoutLine: {'line': b'byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager/main.py to main.cpython-310.pyc\n'}
+[8.461204] (hyperdog_ctrl) StdoutLine: {'line': b'byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager/__init__.py to __init__.cpython-310.pyc\n'}
+[8.461335] (hyperdog_ctrl) StdoutLine: {'line': b'byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager/cmd_manager_node.py to cmd_manager_node.cpython-310.pyc\n'}
+[8.462293] (hyperdog_ctrl) StdoutLine: {'line': b'byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/cmd_manager/hyperdog_variables.py to hyperdog_variables.cpython-310.pyc\n'}
+[8.462854] (hyperdog_ctrl) StdoutLine: {'line': b'byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/body_motion_planner/__init__.py to __init__.cpython-310.pyc\n'}
+[8.462970] (hyperdog_ctrl) StdoutLine: {'line': b'byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/body_motion_planner/body_motion_planner.py to body_motion_planner.cpython-310.pyc\n'}
+[8.463530] (hyperdog_ctrl) StdoutLine: {'line': b'byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/gait_generator/gait_planner.py to gait_planner.cpython-310.pyc\n'}
+[8.467566] (hyperdog_ctrl) StdoutLine: {'line': b'byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/gait_generator/__init__.py to __init__.cpython-310.pyc\n'}
+[8.467763] (hyperdog_ctrl) StdoutLine: {'line': b'byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK/InverseKinematics.py to InverseKinematics.cpython-310.pyc\n'}
+[8.468751] (hyperdog_ctrl) StdoutLine: {'line': b'byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK/__init__.py to __init__.cpython-310.pyc\n'}
+[8.468920] (hyperdog_ctrl) StdoutLine: {'line': b'byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK/inverse_kinematic_node.py to inverse_kinematic_node.cpython-310.pyc\n'}
+[8.469404] (hyperdog_ctrl) StdoutLine: {'line': b'byte-compiling /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/IK/controlVariables.py to controlVariables.cpython-310.pyc\n'}
+[8.469700] (hyperdog_ctrl) StdoutLine: {'line': b'running install_data\n'}
+[8.470147] (hyperdog_ctrl) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/share/ament_index\n'}
+[8.470227] (hyperdog_ctrl) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/share/ament_index/resource_index\n'}
+[8.470317] (hyperdog_ctrl) StdoutLine: {'line': b'creating /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/share/ament_index/resource_index/packages\n'}
+[8.470385] (hyperdog_ctrl) StdoutLine: {'line': b'copying resource/hyperdog_ctrl -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/share/ament_index/resource_index/packages\n'}
+[8.470443] (hyperdog_ctrl) StdoutLine: {'line': b'copying package.xml -> /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/share/hyperdog_ctrl\n'}
+[8.470517] (hyperdog_ctrl) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.471702] (hyperdog_ctrl) StdoutLine: {'line': b'Copying ../../../build/hyperdog_ctrl/hyperdog_ctrl.egg-info to /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/python3.10/site-packages/hyperdog_ctrl-0.0.0-py3.10.egg-info\n'}
+[8.472236] (hyperdog_ctrl) StdoutLine: {'line': b'running install_scripts\n'}
+[8.488880] (hyperdog_ctrl) StdoutLine: {'line': b'Installing IK_node script to /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/hyperdog_ctrl\n'}
+[8.489080] (hyperdog_ctrl) StdoutLine: {'line': b'Installing cmd_manager_node script to /home/nicoleibert/hyperdog_ws/install/hyperdog_ctrl/lib/hyperdog_ctrl\n'}
+[8.489372] (hyperdog_ctrl) StdoutLine: {'line': b"writing list of installed files to '/home/nicoleibert/hyperdog_ws/build/hyperdog_ctrl/install.log'\n"}
+[8.508563] (hyperdog_ctrl) CommandEnded: {'returncode': 0}
+[8.524702] (-) TimerEvent: {}
+[8.553787] (hyperdog_ctrl) JobEnded: {'identifier': 'hyperdog_ctrl', 'rc': 0}
+[8.591729] (hyperdog_teleop) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[8.592254] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[8.593903] (hyperdog_teleop) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.594258] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[8.624868] (-) TimerEvent: {}
+[8.704765] (hyperdog_teleop) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.705223] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.725028] (-) TimerEvent: {}
+[8.754961] (hyperdog_teleop) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[8.755207] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[8.825200] (-) TimerEvent: {}
+[8.827843] (hyperdog_gazebo_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.828037] (hyperdog_teleop) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.925317] (-) TimerEvent: {}
+[8.970801] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[8.976829] (hyperdog_teleop) StdoutLine: {'line': b'-- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)\n'}
+[8.994567] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Found hyperdog_msgs: 0.0.0 (/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake)\n'}
+[9.025484] (-) TimerEvent: {}
+[9.092811] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Found nav_msgs: 5.0.0 (/opt/ros/iron/share/nav_msgs/cmake)\n'}
+[9.125665] (-) TimerEvent: {}
+[9.144201] (hyperdog_teleop) StdoutLine: {'line': b'-- Found hyperdog_msgs: 0.0.0 (/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake)\n'}
+[9.225830] (-) TimerEvent: {}
+[9.281034] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.285056] (hyperdog_teleop) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.303250] (hyperdog_teleop) StdoutLine: {'line': b'-- Generating done\n'}
+[9.303651] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[9.305740] (hyperdog_teleop) StdoutLine: {'line': b'-- Build files have been written to: /home/nicoleibert/hyperdog_ws/build/hyperdog_teleop\n'}
+[9.306178] (hyperdog_gazebo_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/nicoleibert/hyperdog_ws/build/hyperdog_gazebo_sim\n'}
+[9.320991] (hyperdog_teleop) CommandEnded: {'returncode': 0}
+[9.322032] (hyperdog_teleop) JobProgress: {'identifier': 'hyperdog_teleop', 'progress': 'build'}
+[9.324069] (hyperdog_teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nicoleibert/hyperdog_ws/build/hyperdog_teleop', '--', '-j16', '-l16'], 'cwd': '/home/nicoleibert/hyperdog_ws/build/hyperdog_teleop', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nicoleibert'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/nicoleibert'), ('OLDPWD', '/home/nicoleibert'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4047'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nicoleibert'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'nicoleibert'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/nicoleibert/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nicoleibert-MG-VCP15I-3070:@/tmp/.ICE-unix/2366,unix/nicoleibert-MG-VCP15I-3070:/tmp/.ICE-unix/2366'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8d93c491_5b4a_49f9_8edf_e4814fb7ea76'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '86'), ('AMENT_PREFIX_PATH', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicoleibert/hyperdog_ws/build/hyperdog_teleop'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:/opt/ros/iron')]), 'shell': False}
+[9.326243] (-) TimerEvent: {}
+[9.327269] (hyperdog_gazebo_sim) CommandEnded: {'returncode': 0}
+[9.328182] (hyperdog_gazebo_sim) JobProgress: {'identifier': 'hyperdog_gazebo_sim', 'progress': 'build'}
+[9.329014] (hyperdog_gazebo_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nicoleibert/hyperdog_ws/build/hyperdog_gazebo_sim', '--', '-j16', '-l16'], 'cwd': '/home/nicoleibert/hyperdog_ws/build/hyperdog_gazebo_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nicoleibert'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/nicoleibert'), ('OLDPWD', '/home/nicoleibert'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '4047'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nicoleibert'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'nicoleibert'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/nicoleibert/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nicoleibert-MG-VCP15I-3070:@/tmp/.ICE-unix/2366,unix/nicoleibert-MG-VCP15I-3070:/tmp/.ICE-unix/2366'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8d93c491_5b4a_49f9_8edf_e4814fb7ea76'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '86'), ('AMENT_PREFIX_PATH', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicoleibert/hyperdog_ws/build/hyperdog_gazebo_sim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:/opt/ros/iron')]), 'shell': False}
+[9.395908] (hyperdog_teleop) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hyperdog_teleop_joy_node.dir/src/hyperdog_teleop_joy.cpp.o\x1b[0m\n'}
+[9.402810] (hyperdog_gazebo_sim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/hyperdog_gazebo_joint_ctrl_node.dir/src/hyperdog_gazebo_joint_controller.cpp.o\x1b[0m\n'}
+[9.404108] (hyperdog_gazebo_sim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/fake_odom.dir/src/fake_odom.cpp.o\x1b[0m\n'}
+[9.426395] (-) TimerEvent: {}
+[9.526790] (-) TimerEvent: {}
+[9.627224] (-) TimerEvent: {}
+[9.642513] (hyperdog_teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_teleop/src/hyperdog_teleop_joy.cpp:28:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ktrajectory_msgs/msg/joint_trajectory.hpp: No such file or directory\n'}
+[9.642705] (hyperdog_teleop) StderrLine: {'line': b'   28 | #include \x1b[01;31m\x1b[K"trajectory_msgs/msg/joint_trajectory.hpp"\x1b[m\x1b[K\n'}
+[9.642780] (hyperdog_teleop) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.642842] (hyperdog_teleop) StderrLine: {'line': b'compilation terminated.\n'}
+[9.646494] (hyperdog_teleop) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/hyperdog_teleop_joy_node.dir/build.make:76: CMakeFiles/hyperdog_teleop_joy_node.dir/src/hyperdog_teleop_joy.cpp.o] Error 1\n'}
+[9.646957] (hyperdog_teleop) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hyperdog_teleop_joy_node.dir/all] Error 2\n'}
+[9.647386] (hyperdog_teleop) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.650374] (hyperdog_teleop) CommandEnded: {'returncode': 2}
+[9.727902] (-) TimerEvent: {}
+[9.729813] (hyperdog_teleop) JobEnded: {'identifier': 'hyperdog_teleop', 'rc': 2}
+[9.828115] (-) TimerEvent: {}
+[9.928643] (-) TimerEvent: {}
+[10.029159] (-) TimerEvent: {}
+[10.129646] (-) TimerEvent: {}
+[10.230016] (-) TimerEvent: {}
+[10.330443] (-) TimerEvent: {}
+[10.430949] (-) TimerEvent: {}
+[10.531432] (-) TimerEvent: {}
+[10.631945] (-) TimerEvent: {}
+[10.732519] (-) TimerEvent: {}
+[10.833062] (-) TimerEvent: {}
+[10.933581] (-) TimerEvent: {}
+[11.034000] (-) TimerEvent: {}
+[11.134400] (-) TimerEvent: {}
+[11.234840] (-) TimerEvent: {}
+[11.335357] (-) TimerEvent: {}
+[11.435901] (-) TimerEvent: {}
+[11.536453] (-) TimerEvent: {}
+[11.636991] (-) TimerEvent: {}
+[11.737440] (-) TimerEvent: {}
+[11.837916] (-) TimerEvent: {}
+[11.938358] (-) TimerEvent: {}
+[12.038807] (-) TimerEvent: {}
+[12.139316] (-) TimerEvent: {}
+[12.239856] (-) TimerEvent: {}
+[12.340407] (-) TimerEvent: {}
+[12.440892] (-) TimerEvent: {}
+[12.541332] (-) TimerEvent: {}
+[12.641782] (-) TimerEvent: {}
+[12.742103] (-) TimerEvent: {}
+[12.842507] (-) TimerEvent: {}
+[12.942943] (-) TimerEvent: {}
+[13.043426] (-) TimerEvent: {}
+[13.143967] (-) TimerEvent: {}
+[13.244457] (-) TimerEvent: {}
+[13.344986] (-) TimerEvent: {}
+[13.445481] (-) TimerEvent: {}
+[13.545913] (-) TimerEvent: {}
+[13.646315] (-) TimerEvent: {}
+[13.746768] (-) TimerEvent: {}
+[13.847260] (-) TimerEvent: {}
+[13.947777] (-) TimerEvent: {}
+[14.048277] (-) TimerEvent: {}
+[14.148802] (-) TimerEvent: {}
+[14.249317] (-) TimerEvent: {}
+[14.349751] (-) TimerEvent: {}
+[14.450081] (-) TimerEvent: {}
+[14.550437] (-) TimerEvent: {}
+[14.650819] (-) TimerEvent: {}
+[14.751266] (-) TimerEvent: {}
+[14.851692] (-) TimerEvent: {}
+[14.952180] (-) TimerEvent: {}
+[15.052628] (-) TimerEvent: {}
+[15.153157] (-) TimerEvent: {}
+[15.253612] (-) TimerEvent: {}
+[15.354022] (-) TimerEvent: {}
+[15.454717] (-) TimerEvent: {}
+[15.459169] (hyperdog_gazebo_sim) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable fake_odom\x1b[0m\n'}
+[15.494008] (hyperdog_gazebo_sim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hyperdog_gazebo_joint_ctrl_node\x1b[0m\n'}
+[15.554920] (-) TimerEvent: {}
+[15.655486] (-) TimerEvent: {}
+[15.755887] (-) TimerEvent: {}
+[15.846468] (hyperdog_gazebo_sim) StdoutLine: {'line': b'[100%] Built target fake_odom\n'}
+[15.850446] (hyperdog_gazebo_sim) StdoutLine: {'line': b'[100%] Built target hyperdog_gazebo_joint_ctrl_node\n'}
+[15.856035] (-) TimerEvent: {}
+[15.861442] (hyperdog_gazebo_sim) JobEnded: {'identifier': 'hyperdog_gazebo_sim', 'rc': 'SIGINT'}
+[15.872152] (-) EventReactorShutdown: {}

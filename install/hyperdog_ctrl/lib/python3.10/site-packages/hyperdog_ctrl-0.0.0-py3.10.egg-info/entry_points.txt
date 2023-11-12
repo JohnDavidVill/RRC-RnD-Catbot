@@ -1,0 +1,4 @@
+[console_scripts]
+IK_node = IK.inverse_kinematic_node:main
+cmd_manager_node = cmd_manager.main:main
+

@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hyperdog_msgs/msg/JoyCtrlCmds.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module hyperdog_msgs {
+  module msg {
+    typedef boolean boolean__3[3];
+    @verbatim (language="comment", text=
+      "std_msgs/Header header")
+    struct JoyCtrlCmds {
+      @verbatim (language="comment", text=
+        "states represent the robot's states" "\n"
+        "states[0] start" "\n"
+        "states[1] walk" "\n"
+        "states[2] side_move_mode")
+      boolean__3 states;
+
+      @verbatim (language="comment", text=
+        "This represent the type of selected gait: 0,1,2,3,....")
+      @default (value=0)
+      uint8 gait_type;
+
+      @verbatim (language="comment", text=
+        "This represents the robot pose" "\n"
+        "pose.position: slant-x, slant_y, height" "\n"
+        "pose.orientation: roll, pitch, yaw")
+      geometry_msgs::msg::Pose pose;
+
+      @verbatim (language="comment", text=
+        "This represents the gait_step commands" "\n"
+        "gait_step.x = steplen_x" "\n"
+        "gait_step.y = steplen_y" "\n"
+        "gait_step.z = swing_height")
+      geometry_msgs::msg::Vector3 gait_step;
+    };
+  };
+};

@@ -1,0 +1,41 @@
+[0.274s] Invoking command in '/home/nicoleibert/hyperdog_ws/build/hyperdog_teleop': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_teleop -DCMAKE_INSTALL_PREFIX=/home/nicoleibert/hyperdog_ws/install/hyperdog_teleop
+[0.347s] -- The C compiler identification is GNU 11.4.0
+[0.404s] -- The CXX compiler identification is GNU 11.4.0
+[0.410s] -- Detecting C compiler ABI info
+[0.471s] -- Detecting C compiler ABI info - done
+[0.477s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.478s] -- Detecting C compile features
+[0.478s] -- Detecting C compile features - done
+[0.480s] -- Detecting CXX compiler ABI info
+[0.551s] -- Detecting CXX compiler ABI info - done
+[0.558s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.558s] -- Detecting CXX compile features
+[0.558s] -- Detecting CXX compile features - done
+[0.561s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.763s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.847s] -- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+[0.884s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.894s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.908s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.925s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.066s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.068s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.179s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.229s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.302s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.451s] -- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)
+[1.618s] -- Found hyperdog_msgs: 0.0.0 (/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/share/hyperdog_msgs/cmake)
+[1.759s] -- Configuring done
+[1.777s] -- Generating done
+[1.780s] -- Build files have been written to: /home/nicoleibert/hyperdog_ws/build/hyperdog_teleop
+[1.795s] Invoked command in '/home/nicoleibert/hyperdog_ws/build/hyperdog_teleop' returned '0': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_teleop -DCMAKE_INSTALL_PREFIX=/home/nicoleibert/hyperdog_ws/install/hyperdog_teleop
+[1.798s] Invoking command in '/home/nicoleibert/hyperdog_ws/build/hyperdog_teleop': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nicoleibert/hyperdog_ws/build/hyperdog_teleop -- -j16 -l16
+[1.870s] [ 50%] [32mBuilding CXX object CMakeFiles/hyperdog_teleop_joy_node.dir/src/hyperdog_teleop_joy.cpp.o[0m
+[2.116s] [01m[K/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_teleop/src/hyperdog_teleop_joy.cpp:28:10:[m[K [01;31m[Kfatal error: [m[Ktrajectory_msgs/msg/joint_trajectory.hpp: No such file or directory
+[2.116s]    28 | #include [01;31m[K"trajectory_msgs/msg/joint_trajectory.hpp"[m[K
+[2.116s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.116s] compilation terminated.
+[2.120s] gmake[2]: *** [CMakeFiles/hyperdog_teleop_joy_node.dir/build.make:76: CMakeFiles/hyperdog_teleop_joy_node.dir/src/hyperdog_teleop_joy.cpp.o] Error 1
+[2.121s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hyperdog_teleop_joy_node.dir/all] Error 2
+[2.121s] gmake: *** [Makefile:146: all] Error 2
+[2.124s] Invoked command in '/home/nicoleibert/hyperdog_ws/build/hyperdog_teleop' returned '2': AMENT_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs:/opt/ros/iron LD_LIBRARY_PATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicoleibert/hyperdog_ws/install/hyperdog_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nicoleibert/hyperdog_ws/build/hyperdog_teleop -- -j16 -l16

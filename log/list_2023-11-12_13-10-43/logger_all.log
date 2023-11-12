@@ -1,0 +1,208 @@
+[2.645s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/nicoleibert/hyperdog_ws']
+[2.646s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/nicoleibert/hyperdog_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f295134e1a0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f295136b6d0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f295136b6d0>>)
+[2.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.792s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nicoleibert/hyperdog_ws'
+[2.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws) by extensions ['ignore', 'ignore_ament_install']
+[2.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws) by extension 'ignore'
+[2.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws) by extension 'ignore_ament_install'
+[2.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws) by extensions ['colcon_pkg']
+[2.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws) by extension 'colcon_pkg'
+[2.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws) by extensions ['colcon_meta']
+[2.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws) by extension 'colcon_meta'
+[2.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws) by extensions ['ros']
+[2.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws) by extension 'ros'
+[2.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws) by extensions ['cmake', 'python']
+[2.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws) by extension 'cmake'
+[2.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws) by extension 'python'
+[2.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws) by extensions ['python_setup_py']
+[2.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws) by extension 'python_setup_py'
+[2.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[2.828s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/build) by extension 'ignore'
+[2.828s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/build) ignored
+[2.828s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[2.828s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/install) by extension 'ignore'
+[2.828s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/install) ignored
+[2.828s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/log) by extension 'ignore'
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/log) ignored
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src) by extension 'ignore'
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src) by extension 'ignore_ament_install'
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src) by extensions ['colcon_pkg']
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src) by extension 'colcon_pkg'
+[2.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src) by extensions ['colcon_meta']
+[2.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src) by extension 'colcon_meta'
+[2.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src) by extensions ['ros']
+[2.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src) by extension 'ros'
+[2.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src) by extensions ['cmake', 'python']
+[2.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src) by extension 'cmake'
+[2.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src) by extension 'python'
+[2.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src) by extensions ['python_setup_py']
+[2.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src) by extension 'python_setup_py'
+[2.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2) by extension 'ignore'
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2) by extension 'ignore_ament_install'
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2) by extensions ['colcon_pkg']
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2) by extension 'colcon_pkg'
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2) by extensions ['colcon_meta']
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2) by extension 'colcon_meta'
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2) by extensions ['ros']
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2) by extension 'ros'
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2) by extensions ['cmake', 'python']
+[2.831s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2) by extension 'cmake'
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2) by extension 'python'
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2) by extensions ['python_setup_py']
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2) by extension 'python_setup_py'
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_ctrl) by extensions ['ignore', 'ignore_ament_install']
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_ctrl) by extension 'ignore'
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_ctrl) by extension 'ignore_ament_install'
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_ctrl) by extensions ['colcon_pkg']
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_ctrl) by extension 'colcon_pkg'
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_ctrl) by extensions ['colcon_meta']
+[2.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_ctrl) by extension 'colcon_meta'
+[2.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_ctrl) by extensions ['ros']
+[2.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_ctrl) by extension 'ros'
+[2.841s] DEBUG:colcon.colcon_core.package_identification:Package '/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_ctrl' with type 'ros.ament_python' and name 'hyperdog_ctrl'
+[2.842s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[2.842s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_gazebo_sim) by extension 'ignore'
+[2.842s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_gazebo_sim) by extension 'ignore_ament_install'
+[2.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_gazebo_sim) by extensions ['colcon_pkg']
+[2.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_gazebo_sim) by extension 'colcon_pkg'
+[2.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_gazebo_sim) by extensions ['colcon_meta']
+[2.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_gazebo_sim) by extension 'colcon_meta'
+[2.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_gazebo_sim) by extensions ['ros']
+[2.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_gazebo_sim) by extension 'ros'
+[2.845s] DEBUG:colcon.colcon_core.package_identification:Package '/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_gazebo_sim' with type 'ros.ament_cmake' and name 'hyperdog_gazebo_sim'
+[2.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_launch) by extensions ['ignore', 'ignore_ament_install']
+[2.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_launch) by extension 'ignore'
+[2.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_launch) by extension 'ignore_ament_install'
+[2.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_launch) by extensions ['colcon_pkg']
+[2.847s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_launch) by extension 'colcon_pkg'
+[2.847s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_launch) by extensions ['colcon_meta']
+[2.847s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_launch) by extension 'colcon_meta'
+[2.847s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_launch) by extensions ['ros']
+[2.847s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_launch) by extension 'ros'
+[2.848s] DEBUG:colcon.colcon_core.package_identification:Package '/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_launch' with type 'ros.ament_python' and name 'hyperdog_launch'
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_msgs) by extension 'ignore'
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_msgs) by extension 'ignore_ament_install'
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_msgs) by extensions ['colcon_pkg']
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_msgs) by extension 'colcon_pkg'
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_msgs) by extensions ['colcon_meta']
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_msgs) by extension 'colcon_meta'
+[2.850s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_msgs) by extensions ['ros']
+[2.850s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_msgs) by extension 'ros'
+[2.851s] DEBUG:colcon.colcon_core.package_identification:Package '/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_msgs' with type 'ros.ament_cmake' and name 'hyperdog_msgs'
+[2.851s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_teleop) by extensions ['ignore', 'ignore_ament_install']
+[2.851s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_teleop) by extension 'ignore'
+[2.851s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_teleop) by extension 'ignore_ament_install'
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_teleop) by extensions ['colcon_pkg']
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_teleop) by extension 'colcon_pkg'
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_teleop) by extensions ['colcon_meta']
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_teleop) by extension 'colcon_meta'
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_teleop) by extensions ['ros']
+[2.852s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_teleop) by extension 'ros'
+[2.854s] DEBUG:colcon.colcon_core.package_identification:Package '/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/hyperdog_teleop' with type 'ros.ament_cmake' and name 'hyperdog_teleop'
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros) by extensions ['ignore', 'ignore_ament_install']
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros) by extension 'ignore'
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros) by extension 'ignore_ament_install'
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros) by extensions ['colcon_pkg']
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros) by extension 'colcon_pkg'
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros) by extensions ['colcon_meta']
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros) by extension 'colcon_meta'
+[2.855s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros) by extensions ['ros']
+[2.855s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros) by extension 'ros'
+[2.855s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros) by extensions ['cmake', 'python']
+[2.855s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros) by extension 'cmake'
+[2.855s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros) by extension 'python'
+[2.855s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros) by extensions ['python_setup_py']
+[2.856s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros) by extension 'python_setup_py'
+[2.856s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/drive_base) by extensions ['ignore', 'ignore_ament_install']
+[2.856s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/drive_base) by extension 'ignore'
+[2.856s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/drive_base) by extension 'ignore_ament_install'
+[2.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/drive_base) by extensions ['colcon_pkg']
+[2.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/drive_base) by extension 'colcon_pkg'
+[2.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/drive_base) by extensions ['colcon_meta']
+[2.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/drive_base) by extension 'colcon_meta'
+[2.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/drive_base) by extensions ['ros']
+[2.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/drive_base) by extension 'ros'
+[2.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/drive_base) by extensions ['cmake', 'python']
+[2.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/drive_base) by extension 'cmake'
+[2.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/drive_base) by extension 'python'
+[2.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/drive_base) by extensions ['python_setup_py']
+[2.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/drive_base) by extension 'python_setup_py'
+[2.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[2.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro-ROS-Agent) by extension 'ignore'
+[2.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[2.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[2.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[2.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[2.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[2.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro-ROS-Agent) by extensions ['ros']
+[2.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro-ROS-Agent) by extension 'ros'
+[2.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[2.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro-ROS-Agent) by extension 'cmake'
+[2.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro-ROS-Agent) by extension 'python'
+[2.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[2.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[2.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro_ros_msgs) by extension 'ignore'
+[2.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[2.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[2.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[2.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[2.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro_ros_msgs) by extension 'colcon_meta'
+[2.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro_ros_msgs) by extensions ['ros']
+[2.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro_ros_msgs) by extension 'ros'
+[2.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro_ros_msgs) by extensions ['cmake', 'python']
+[2.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro_ros_msgs) by extension 'cmake'
+[2.863s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro_ros_msgs) by extension 'python'
+[2.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro_ros_msgs) by extensions ['python_setup_py']
+[2.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros/micro_ros_msgs) by extension 'python_setup_py'
+[2.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.864s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg) by extension 'ignore'
+[2.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg) by extension 'ignore_ament_install'
+[2.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg) by extensions ['colcon_pkg']
+[2.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg) by extension 'colcon_pkg'
+[2.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg) by extensions ['colcon_meta']
+[2.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg) by extension 'colcon_meta'
+[2.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg) by extensions ['ros']
+[2.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg) by extension 'ros'
+[2.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg) by extensions ['cmake', 'python']
+[2.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg) by extension 'cmake'
+[2.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg) by extension 'python'
+[2.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg) by extensions ['python_setup_py']
+[2.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg) by extension 'python_setup_py'
+[2.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src) by extensions ['ignore', 'ignore_ament_install']
+[2.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src) by extension 'ignore'
+[2.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src) by extension 'ignore_ament_install'
+[2.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src) by extensions ['colcon_pkg']
+[2.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src) by extension 'colcon_pkg'
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src) by extensions ['colcon_meta']
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src) by extension 'colcon_meta'
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src) by extensions ['ros']
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src) by extension 'ros'
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src) by extensions ['cmake', 'python']
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src) by extension 'cmake'
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src) by extension 'python'
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src) by extensions ['python_setup_py']
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src) by extension 'python_setup_py'
+[2.869s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src/micro_ros_setup) by extension 'ignore'
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src/micro_ros_setup) by extension 'ignore_ament_install'
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src/micro_ros_setup) by extensions ['colcon_pkg']
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src/micro_ros_setup) by extension 'colcon_pkg'
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src/micro_ros_setup) by extensions ['colcon_meta']
+[2.870s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src/micro_ros_setup) by extension 'colcon_meta'
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src/micro_ros_setup) by extensions ['ros']
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src/micro_ros_setup) by extension 'ros'
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src/micro_ros_setup) by extensions ['cmake', 'python']
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src/micro_ros_setup) by extension 'cmake'
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src/micro_ros_setup) by extension 'python'
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src/micro_ros_setup) by extensions ['python_setup_py']
+[2.871s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nicoleibert/hyperdog_ws/src/hyperdog_ros2/uros_pkg/src/micro_ros_setup) by extension 'python_setup_py'
+[2.872s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

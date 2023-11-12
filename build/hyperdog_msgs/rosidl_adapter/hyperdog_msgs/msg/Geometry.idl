@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hyperdog_msgs/msg/Geometry.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point32.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+
+module hyperdog_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "information of pose of the each leg and orientation of the body")
+    struct Geometry {
+      geometry_msgs::msg::Point32 fr;
+
+      geometry_msgs::msg::Point32 fl;
+
+      geometry_msgs::msg::Point32 br;
+
+      geometry_msgs::msg::Point32 bl;
+
+      geometry_msgs::msg::Quaternion euler_ang;
+    };
+  };
+};
