@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>sensors</name>
+  <version>0.0.0</version>
+  <description>General sensors package for catbot</description>
+  <maintainer email="wl85@rice.edu">winsonl8</maintainer>
+  <license>MIT</license>
+
+  <!-- Runtime dependencies -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>python3-gpiozero</exec_depend> <!-- If using GPIO Zero library -->
+  <exec_depend>python3-rpi.gpio</exec_depend> <!-- If using RPi.GPIO library -->
+  <exec_depend>sensor_msgs</exec_depend> <!-- Commonly used for publishing sensor data -->
+
+  <!-- Test dependencies -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <!-- If we are using any serial communication -->
+  <exec_depend>pyserial</exec_depend>
+
+  <!-- If we need to interact with I2C devices (like the MPU-6050) -->
+  <exec_depend>python3-smbus</exec_depend> <!-- For I2C communication -->
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
